@@ -1,0 +1,1902 @@
+{
+  "rallies": {
+    "rally_000000": {
+      "start_time": 14.16,
+      "start_ts": "00:00:14.160",
+      "frames_expected": 170,
+      "frames_written": 170,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000016": {
+      "start_time": 476.56,
+      "start_ts": "00:07:56.560",
+      "frames_expected": 76,
+      "frames_written": 76,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9992,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000001": {
+      "start_time": 37.4,
+      "start_ts": "00:00:37.400",
+      "frames_expected": 87,
+      "frames_written": 87,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000002": {
+      "start_time": 60.8,
+      "start_ts": "00:01:00.800",
+      "frames_expected": 105,
+      "frames_written": 105,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000003": {
+      "start_time": 86.0,
+      "start_ts": "00:01:26.000",
+      "frames_expected": 120,
+      "frames_written": 120,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000004": {
+      "start_time": 119.52,
+      "start_ts": "00:01:59.520",
+      "frames_expected": 172,
+      "frames_written": 172,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000005": {
+      "start_time": 141.84,
+      "start_ts": "00:02:21.840",
+      "frames_expected": 79,
+      "frames_written": 79,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9987,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000006": {
+      "start_time": 162.0,
+      "start_ts": "00:02:42.000",
+      "frames_expected": 184,
+      "frames_written": 184,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000007": {
+      "start_time": 189.56,
+      "start_ts": "00:03:09.560",
+      "frames_expected": 162,
+      "frames_written": 162,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000009": {
+      "start_time": 233.0,
+      "start_ts": "00:03:53.000",
+      "frames_expected": 178,
+      "frames_written": 178,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000011": {
+      "start_time": 278.76,
+      "start_ts": "00:04:38.760",
+      "frames_expected": 380,
+      "frames_written": 380,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000012": {
+      "start_time": 325.64,
+      "start_ts": "00:05:25.640",
+      "frames_expected": 171,
+      "frames_written": 171,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000013": {
+      "start_time": 351.92,
+      "start_ts": "00:05:51.920",
+      "frames_expected": 176,
+      "frames_written": 176,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9982,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000014": {
+      "start_time": 424.68,
+      "start_ts": "00:07:04.680",
+      "frames_expected": 96,
+      "frames_written": 96,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000015": {
+      "start_time": 444.16,
+      "start_ts": "00:07:24.160",
+      "frames_expected": 309,
+      "frames_written": 309,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000017": {
+      "start_time": 494.8,
+      "start_ts": "00:08:14.800",
+      "frames_expected": 173,
+      "frames_written": 173,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000019": {
+      "start_time": 524.76,
+      "start_ts": "00:08:44.760",
+      "frames_expected": 185,
+      "frames_written": 185,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000021": {
+      "start_time": 586.52,
+      "start_ts": "00:09:46.520",
+      "frames_expected": 156,
+      "frames_written": 156,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000022": {
+      "start_time": 611.16,
+      "start_ts": "00:10:11.160",
+      "frames_expected": 214,
+      "frames_written": 214,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9985,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000023": {
+      "start_time": 635.76,
+      "start_ts": "00:10:35.760",
+      "frames_expected": 172,
+      "frames_written": 172,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000024": {
+      "start_time": 661.52,
+      "start_ts": "00:11:01.520",
+      "frames_expected": 305,
+      "frames_written": 305,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000025": {
+      "start_time": 698.4,
+      "start_ts": "00:11:38.400",
+      "frames_expected": 133,
+      "frames_written": 133,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000026": {
+      "start_time": 734.72,
+      "start_ts": "00:12:14.720",
+      "frames_expected": 123,
+      "frames_written": 123,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000027": {
+      "start_time": 755.56,
+      "start_ts": "00:12:35.560",
+      "frames_expected": 74,
+      "frames_written": 74,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000029": {
+      "start_time": 815.32,
+      "start_ts": "00:13:35.320",
+      "frames_expected": 73,
+      "frames_written": 73,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000030": {
+      "start_time": 837.32,
+      "start_ts": "00:13:57.320",
+      "frames_expected": 185,
+      "frames_written": 185,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000032": {
+      "start_time": 903.92,
+      "start_ts": "00:15:03.920",
+      "frames_expected": 203,
+      "frames_written": 203,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000036": {
+      "start_time": 934.76,
+      "start_ts": "00:15:34.760",
+      "frames_expected": 166,
+      "frames_written": 166,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000038": {
+      "start_time": 981.24,
+      "start_ts": "00:16:21.240",
+      "frames_expected": 159,
+      "frames_written": 159,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000039": {
+      "start_time": 1010.6,
+      "start_ts": "00:16:50.600",
+      "frames_expected": 83,
+      "frames_written": 83,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000040": {
+      "start_time": 1030.56,
+      "start_ts": "00:17:10.560",
+      "frames_expected": 185,
+      "frames_written": 185,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000041": {
+      "start_time": 1054.88,
+      "start_ts": "00:17:34.880",
+      "frames_expected": 160,
+      "frames_written": 160,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9984,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000042": {
+      "start_time": 1094.32,
+      "start_ts": "00:18:14.320",
+      "frames_expected": 360,
+      "frames_written": 360,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000043": {
+      "start_time": 1179.48,
+      "start_ts": "00:19:39.480",
+      "frames_expected": 155,
+      "frames_written": 155,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000044": {
+      "start_time": 1201.76,
+      "start_ts": "00:20:01.760",
+      "frames_expected": 168,
+      "frames_written": 168,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000047": {
+      "start_time": 1229.8,
+      "start_ts": "00:20:29.800",
+      "frames_expected": 295,
+      "frames_written": 295,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000048": {
+      "start_time": 1269.8,
+      "start_ts": "00:21:09.800",
+      "frames_expected": 354,
+      "frames_written": 354,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000049": {
+      "start_time": 1305.16,
+      "start_ts": "00:21:45.160",
+      "frames_expected": 201,
+      "frames_written": 201,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000050": {
+      "start_time": 1336.08,
+      "start_ts": "00:22:16.080",
+      "frames_expected": 90,
+      "frames_written": 90,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000051": {
+      "start_time": 1359.68,
+      "start_ts": "00:22:39.680",
+      "frames_expected": 518,
+      "frames_written": 518,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000052": {
+      "start_time": 1458.88,
+      "start_ts": "00:24:18.880",
+      "frames_expected": 200,
+      "frames_written": 200,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000053": {
+      "start_time": 1485.2,
+      "start_ts": "00:24:45.200",
+      "frames_expected": 213,
+      "frames_written": 213,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000054": {
+      "start_time": 1711.76,
+      "start_ts": "00:28:31.760",
+      "frames_expected": 182,
+      "frames_written": 182,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000055": {
+      "start_time": 1740.8,
+      "start_ts": "00:29:00.800",
+      "frames_expected": 132,
+      "frames_written": 132,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000056": {
+      "start_time": 1767.76,
+      "start_ts": "00:29:27.760",
+      "frames_expected": 91,
+      "frames_written": 91,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000057": {
+      "start_time": 1789.08,
+      "start_ts": "00:29:49.080",
+      "frames_expected": 176,
+      "frames_written": 176,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000058": {
+      "start_time": 1818.8,
+      "start_ts": "00:30:18.800",
+      "frames_expected": 161,
+      "frames_written": 161,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000059": {
+      "start_time": 1843.72,
+      "start_ts": "00:30:43.720",
+      "frames_expected": 181,
+      "frames_written": 181,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000060": {
+      "start_time": 1869.32,
+      "start_ts": "00:31:09.320",
+      "frames_expected": 157,
+      "frames_written": 157,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000062": {
+      "start_time": 1927.04,
+      "start_ts": "00:32:07.040",
+      "frames_expected": 185,
+      "frames_written": 185,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000063": {
+      "start_time": 1956.2,
+      "start_ts": "00:32:36.200",
+      "frames_expected": 148,
+      "frames_written": 148,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000064": {
+      "start_time": 1973.56,
+      "start_ts": "00:32:53.560",
+      "frames_expected": 124,
+      "frames_written": 124,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000065": {
+      "start_time": 1994.12,
+      "start_ts": "00:33:14.120",
+      "frames_expected": 472,
+      "frames_written": 472,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000066": {
+      "start_time": 2035.76,
+      "start_ts": "00:33:55.760",
+      "frames_expected": 260,
+      "frames_written": 260,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000067": {
+      "start_time": 2154.72,
+      "start_ts": "00:35:54.720",
+      "frames_expected": 197,
+      "frames_written": 197,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000068": {
+      "start_time": 2178.88,
+      "start_ts": "00:36:18.880",
+      "frames_expected": 385,
+      "frames_written": 385,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9986,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000069": {
+      "start_time": 2217.12,
+      "start_ts": "00:36:57.120",
+      "frames_expected": 96,
+      "frames_written": 96,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000070": {
+      "start_time": 2237.12,
+      "start_ts": "00:37:17.120",
+      "frames_expected": 391,
+      "frames_written": 391,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000071": {
+      "start_time": 2277.56,
+      "start_ts": "00:37:57.560",
+      "frames_expected": 185,
+      "frames_written": 185,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000073": {
+      "start_time": 2345.92,
+      "start_ts": "00:39:05.920",
+      "frames_expected": 188,
+      "frames_written": 188,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000074": {
+      "start_time": 2372.6,
+      "start_ts": "00:39:32.600",
+      "frames_expected": 190,
+      "frames_written": 190,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000075": {
+      "start_time": 2408.52,
+      "start_ts": "00:40:08.520",
+      "frames_expected": 117,
+      "frames_written": 117,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000076": {
+      "start_time": 2427.28,
+      "start_ts": "00:40:27.280",
+      "frames_expected": 104,
+      "frames_written": 104,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000077": {
+      "start_time": 2451.76,
+      "start_ts": "00:40:51.760",
+      "frames_expected": 253,
+      "frames_written": 253,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000078": {
+      "start_time": 2545.16,
+      "start_ts": "00:42:25.160",
+      "frames_expected": 578,
+      "frames_written": 578,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000079": {
+      "start_time": 2592.48,
+      "start_ts": "00:43:12.480",
+      "frames_expected": 109,
+      "frames_written": 109,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000080": {
+      "start_time": 2613.24,
+      "start_ts": "00:43:33.240",
+      "frames_expected": 159,
+      "frames_written": 159,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000082": {
+      "start_time": 2661.08,
+      "start_ts": "00:44:21.080",
+      "frames_expected": 311,
+      "frames_written": 311,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000084": {
+      "start_time": 2715.88,
+      "start_ts": "00:45:15.880",
+      "frames_expected": 186,
+      "frames_written": 186,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000085": {
+      "start_time": 2744.2,
+      "start_ts": "00:45:44.200",
+      "frames_expected": 420,
+      "frames_written": 420,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000086": {
+      "start_time": 2787.52,
+      "start_ts": "00:46:27.520",
+      "frames_expected": 282,
+      "frames_written": 282,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000087": {
+      "start_time": 2820.64,
+      "start_ts": "00:47:00.640",
+      "frames_expected": 203,
+      "frames_written": 203,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000088": {
+      "start_time": 2849.4,
+      "start_ts": "00:47:29.400",
+      "frames_expected": 147,
+      "frames_written": 147,
+      "ncc_mean": 0.9991,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000089": {
+      "start_time": 2871.36,
+      "start_ts": "00:47:51.360",
+      "frames_expected": 175,
+      "frames_written": 175,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000090": {
+      "start_time": 2907.88,
+      "start_ts": "00:48:27.880",
+      "frames_expected": 109,
+      "frames_written": 109,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000091": {
+      "start_time": 2925.88,
+      "start_ts": "00:48:45.880",
+      "frames_expected": 271,
+      "frames_written": 271,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000092": {
+      "start_time": 2953.68,
+      "start_ts": "00:49:13.680",
+      "frames_expected": 192,
+      "frames_written": 192,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000096": {
+      "start_time": 3030.12,
+      "start_ts": "00:50:30.120",
+      "frames_expected": 169,
+      "frames_written": 169,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000097": {
+      "start_time": 3058.08,
+      "start_ts": "00:50:58.080",
+      "frames_expected": 434,
+      "frames_written": 434,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000099": {
+      "start_time": 3112.4,
+      "start_ts": "00:51:52.400",
+      "frames_expected": 89,
+      "frames_written": 89,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000100": {
+      "start_time": 3132.92,
+      "start_ts": "00:52:12.920",
+      "frames_expected": 280,
+      "frames_written": 280,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000101": {
+      "start_time": 3170.96,
+      "start_ts": "00:52:50.960",
+      "frames_expected": 205,
+      "frames_written": 205,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000102": {
+      "start_time": 3197.56,
+      "start_ts": "00:53:17.560",
+      "frames_expected": 394,
+      "frames_written": 394,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000103": {
+      "start_time": 3237.2,
+      "start_ts": "00:53:57.200",
+      "frames_expected": 223,
+      "frames_written": 223,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000104": {
+      "start_time": 3261.96,
+      "start_ts": "00:54:21.960",
+      "frames_expected": 200,
+      "frames_written": 200,
+      "ncc_mean": 0.9989,
+      "ncc_min": 0.9262,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000105": {
+      "start_time": 3605.6,
+      "start_ts": "01:00:05.600",
+      "frames_expected": 167,
+      "frames_written": 167,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000106": {
+      "start_time": 3631.6,
+      "start_ts": "01:00:31.600",
+      "frames_expected": 172,
+      "frames_written": 172,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000107": {
+      "start_time": 3659.04,
+      "start_ts": "01:00:59.040",
+      "frames_expected": 190,
+      "frames_written": 190,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000110": {
+      "start_time": 3682.96,
+      "start_ts": "01:01:22.960",
+      "frames_expected": 167,
+      "frames_written": 167,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000111": {
+      "start_time": 3708.2,
+      "start_ts": "01:01:48.200",
+      "frames_expected": 170,
+      "frames_written": 170,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000116": {
+      "start_time": 3802.28,
+      "start_ts": "01:03:22.280",
+      "frames_expected": 263,
+      "frames_written": 263,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000117": {
+      "start_time": 3831.44,
+      "start_ts": "01:03:51.440",
+      "frames_expected": 173,
+      "frames_written": 173,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000119": {
+      "start_time": 3881.52,
+      "start_ts": "01:04:41.520",
+      "frames_expected": 522,
+      "frames_written": 522,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9987,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000120": {
+      "start_time": 3925.28,
+      "start_ts": "01:05:25.280",
+      "frames_expected": 316,
+      "frames_written": 316,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9985,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000121": {
+      "start_time": 4133.52,
+      "start_ts": "01:08:53.520",
+      "frames_expected": 178,
+      "frames_written": 178,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000124": {
+      "start_time": 4189.44,
+      "start_ts": "01:09:49.440",
+      "frames_expected": 78,
+      "frames_written": 78,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000125": {
+      "start_time": 4210.88,
+      "start_ts": "01:10:10.880",
+      "frames_expected": 334,
+      "frames_written": 334,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000126": {
+      "start_time": 4245.32,
+      "start_ts": "01:10:45.320",
+      "frames_expected": 179,
+      "frames_written": 179,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000127": {
+      "start_time": 4271.0,
+      "start_ts": "01:11:11.000",
+      "frames_expected": 161,
+      "frames_written": 161,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9987,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000128": {
+      "start_time": 4296.64,
+      "start_ts": "01:11:36.640",
+      "frames_expected": 355,
+      "frames_written": 355,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000130": {
+      "start_time": 4364.8,
+      "start_ts": "01:12:44.800",
+      "frames_expected": 219,
+      "frames_written": 219,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000131": {
+      "start_time": 4394.48,
+      "start_ts": "01:13:14.480",
+      "frames_expected": 74,
+      "frames_written": 74,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000132": {
+      "start_time": 4412.0,
+      "start_ts": "01:13:32.000",
+      "frames_expected": 158,
+      "frames_written": 158,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000135": {
+      "start_time": 4437.4,
+      "start_ts": "01:13:57.400",
+      "frames_expected": 173,
+      "frames_written": 173,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000137": {
+      "start_time": 4536.04,
+      "start_ts": "01:15:36.040",
+      "frames_expected": 215,
+      "frames_written": 215,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000138": {
+      "start_time": 4564.44,
+      "start_ts": "01:16:04.440",
+      "frames_expected": 233,
+      "frames_written": 233,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000139": {
+      "start_time": 4607.56,
+      "start_ts": "01:16:47.560",
+      "frames_expected": 282,
+      "frames_written": 282,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000140": {
+      "start_time": 4635.92,
+      "start_ts": "01:17:15.920",
+      "frames_expected": 188,
+      "frames_written": 188,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000141": {
+      "start_time": 4662.76,
+      "start_ts": "01:17:42.760",
+      "frames_expected": 253,
+      "frames_written": 253,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000142": {
+      "start_time": 4735.6,
+      "start_ts": "01:18:55.600",
+      "frames_expected": 213,
+      "frames_written": 213,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000145": {
+      "start_time": 4773.24,
+      "start_ts": "01:19:33.240",
+      "frames_expected": 164,
+      "frames_written": 164,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000146": {
+      "start_time": 4818.76,
+      "start_ts": "01:20:18.760",
+      "frames_expected": 397,
+      "frames_written": 397,
+      "ncc_mean": 0.9994,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000148": {
+      "start_time": 4903.88,
+      "start_ts": "01:21:43.880",
+      "frames_expected": 234,
+      "frames_written": 234,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000149": {
+      "start_time": 4935.68,
+      "start_ts": "01:22:15.680",
+      "frames_expected": 75,
+      "frames_written": 75,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000150": {
+      "start_time": 5293.6,
+      "start_ts": "01:28:13.600",
+      "frames_expected": 85,
+      "frames_written": 85,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000151": {
+      "start_time": 5310.92,
+      "start_ts": "01:28:30.920",
+      "frames_expected": 274,
+      "frames_written": 274,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000152": {
+      "start_time": 5361.6,
+      "start_ts": "01:29:21.600",
+      "frames_expected": 93,
+      "frames_written": 93,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000153": {
+      "start_time": 5381.88,
+      "start_ts": "01:29:41.880",
+      "frames_expected": 153,
+      "frames_written": 153,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000155": {
+      "start_time": 5411.16,
+      "start_ts": "01:30:11.160",
+      "frames_expected": 193,
+      "frames_written": 193,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000156": {
+      "start_time": 5436.0,
+      "start_ts": "01:30:36.000",
+      "frames_expected": 167,
+      "frames_written": 167,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000157": {
+      "start_time": 5682.96,
+      "start_ts": "01:34:42.960",
+      "frames_expected": 113,
+      "frames_written": 113,
+      "ncc_mean": 0.9994,
+      "ncc_min": 0.9992,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000158": {
+      "start_time": 5708.0,
+      "start_ts": "01:35:08.000",
+      "frames_expected": 160,
+      "frames_written": 160,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000159": {
+      "start_time": 5736.16,
+      "start_ts": "01:35:36.160",
+      "frames_expected": 162,
+      "frames_written": 162,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000160": {
+      "start_time": 5760.48,
+      "start_ts": "01:36:00.480",
+      "frames_expected": 271,
+      "frames_written": 271,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000161": {
+      "start_time": 5792.6,
+      "start_ts": "01:36:32.600",
+      "frames_expected": 168,
+      "frames_written": 168,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000163": {
+      "start_time": 5845.64,
+      "start_ts": "01:37:25.640",
+      "frames_expected": 213,
+      "frames_written": 213,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000164": {
+      "start_time": 5875.8,
+      "start_ts": "01:37:55.800",
+      "frames_expected": 186,
+      "frames_written": 186,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000165": {
+      "start_time": 5954.36,
+      "start_ts": "01:39:14.360",
+      "frames_expected": 176,
+      "frames_written": 176,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000166": {
+      "start_time": 5981.24,
+      "start_ts": "01:39:41.240",
+      "frames_expected": 179,
+      "frames_written": 179,
+      "ncc_mean": 0.9991,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000167": {
+      "start_time": 6019.48,
+      "start_ts": "01:40:19.480",
+      "frames_expected": 183,
+      "frames_written": 183,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000168": {
+      "start_time": 6046.72,
+      "start_ts": "01:40:46.720",
+      "frames_expected": 73,
+      "frames_written": 73,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000169": {
+      "start_time": 6076.72,
+      "start_ts": "01:41:16.720",
+      "frames_expected": 182,
+      "frames_written": 182,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000170": {
+      "start_time": 6102.28,
+      "start_ts": "01:41:42.280",
+      "frames_expected": 206,
+      "frames_written": 206,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000171": {
+      "start_time": 6127.88,
+      "start_ts": "01:42:07.880",
+      "frames_expected": 180,
+      "frames_written": 180,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000173": {
+      "start_time": 6173.32,
+      "start_ts": "01:42:53.320",
+      "frames_expected": 173,
+      "frames_written": 173,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000174": {
+      "start_time": 6202.08,
+      "start_ts": "01:43:22.080",
+      "frames_expected": 250,
+      "frames_written": 250,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000175": {
+      "start_time": 6243.52,
+      "start_ts": "01:44:03.520",
+      "frames_expected": 153,
+      "frames_written": 153,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000176": {
+      "start_time": 6271.56,
+      "start_ts": "01:44:31.560",
+      "frames_expected": 85,
+      "frames_written": 85,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000178": {
+      "start_time": 6319.24,
+      "start_ts": "01:45:19.240",
+      "frames_expected": 171,
+      "frames_written": 171,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000179": {
+      "start_time": 6345.72,
+      "start_ts": "01:45:45.720",
+      "frames_expected": 83,
+      "frames_written": 83,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000180": {
+      "start_time": 6358.2,
+      "start_ts": "01:45:58.200",
+      "frames_expected": 300,
+      "frames_written": 300,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000182": {
+      "start_time": 6430.08,
+      "start_ts": "01:47:10.080",
+      "frames_expected": 213,
+      "frames_written": 213,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000183": {
+      "start_time": 6460.44,
+      "start_ts": "01:47:40.440",
+      "frames_expected": 165,
+      "frames_written": 165,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000189": {
+      "start_time": 6571.2,
+      "start_ts": "01:49:31.200",
+      "frames_expected": 178,
+      "frames_written": 178,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000191": {
+      "start_time": 6623.96,
+      "start_ts": "01:50:23.960",
+      "frames_expected": 183,
+      "frames_written": 183,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000192": {
+      "start_time": 6648.6,
+      "start_ts": "01:50:48.600",
+      "frames_expected": 150,
+      "frames_written": 150,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000195": {
+      "start_time": 6699.24,
+      "start_ts": "01:51:39.240",
+      "frames_expected": 262,
+      "frames_written": 262,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000196": {
+      "start_time": 6732.28,
+      "start_ts": "01:52:12.280",
+      "frames_expected": 215,
+      "frames_written": 215,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000197": {
+      "start_time": 6761.36,
+      "start_ts": "01:52:41.360",
+      "frames_expected": 360,
+      "frames_written": 360,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000198": {
+      "start_time": 6813.84,
+      "start_ts": "01:53:33.840",
+      "frames_expected": 227,
+      "frames_written": 227,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000199": {
+      "start_time": 6872.0,
+      "start_ts": "01:54:32.000",
+      "frames_expected": 408,
+      "frames_written": 408,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000200": {
+      "start_time": 6912.04,
+      "start_ts": "01:55:12.040",
+      "frames_expected": 86,
+      "frames_written": 86,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000201": {
+      "start_time": 6939.24,
+      "start_ts": "01:55:39.240",
+      "frames_expected": 159,
+      "frames_written": 159,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000202": {
+      "start_time": 6977.84,
+      "start_ts": "01:56:17.840",
+      "frames_expected": 456,
+      "frames_written": 456,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000204": {
+      "start_time": 7064.56,
+      "start_ts": "01:57:44.560",
+      "frames_expected": 283,
+      "frames_written": 283,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000207": {
+      "start_time": 7238.56,
+      "start_ts": "02:00:38.560",
+      "frames_expected": 165,
+      "frames_written": 165,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000208": {
+      "start_time": 7265.24,
+      "start_ts": "02:01:05.240",
+      "frames_expected": 198,
+      "frames_written": 198,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000209": {
+      "start_time": 7533.96,
+      "start_ts": "02:05:33.960",
+      "frames_expected": 224,
+      "frames_written": 224,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000210": {
+      "start_time": 7561.72,
+      "start_ts": "02:06:01.720",
+      "frames_expected": 394,
+      "frames_written": 394,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000211": {
+      "start_time": 7597.48,
+      "start_ts": "02:06:37.480",
+      "frames_expected": 409,
+      "frames_written": 409,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000212": {
+      "start_time": 7640.08,
+      "start_ts": "02:07:20.080",
+      "frames_expected": 172,
+      "frames_written": 172,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000213": {
+      "start_time": 7665.68,
+      "start_ts": "02:07:45.680",
+      "frames_expected": 391,
+      "frames_written": 391,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9985,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000215": {
+      "start_time": 7729.56,
+      "start_ts": "02:08:49.560",
+      "frames_expected": 309,
+      "frames_written": 309,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000216": {
+      "start_time": 7767.88,
+      "start_ts": "02:09:27.880",
+      "frames_expected": 135,
+      "frames_written": 135,
+      "ncc_mean": 0.9991,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000217": {
+      "start_time": 7787.36,
+      "start_ts": "02:09:47.360",
+      "frames_expected": 78,
+      "frames_written": 78,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000218": {
+      "start_time": 7810.2,
+      "start_ts": "02:10:10.200",
+      "frames_expected": 315,
+      "frames_written": 315,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000220": {
+      "start_time": 7893.44,
+      "start_ts": "02:11:33.440",
+      "frames_expected": 290,
+      "frames_written": 290,
+      "ncc_mean": 0.9994,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000221": {
+      "start_time": 7924.84,
+      "start_ts": "02:12:04.840",
+      "frames_expected": 113,
+      "frames_written": 113,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000223": {
+      "start_time": 7989.44,
+      "start_ts": "02:13:09.440",
+      "frames_expected": 187,
+      "frames_written": 187,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000225": {
+      "start_time": 8020.2,
+      "start_ts": "02:13:40.200",
+      "frames_expected": 243,
+      "frames_written": 243,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000226": {
+      "start_time": 8049.88,
+      "start_ts": "02:14:09.880",
+      "frames_expected": 193,
+      "frames_written": 193,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000230": {
+      "start_time": 8077.56,
+      "start_ts": "02:14:37.560",
+      "frames_expected": 152,
+      "frames_written": 152,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000231": {
+      "start_time": 8098.96,
+      "start_ts": "02:14:58.960",
+      "frames_expected": 160,
+      "frames_written": 160,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000233": {
+      "start_time": 8130.6,
+      "start_ts": "02:15:30.600",
+      "frames_expected": 184,
+      "frames_written": 184,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000234": {
+      "start_time": 8160.6,
+      "start_ts": "02:16:00.600",
+      "frames_expected": 300,
+      "frames_written": 300,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000235": {
+      "start_time": 8195.4,
+      "start_ts": "02:16:35.400",
+      "frames_expected": 193,
+      "frames_written": 193,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000236": {
+      "start_time": 8227.08,
+      "start_ts": "02:17:07.080",
+      "frames_expected": 253,
+      "frames_written": 253,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000237": {
+      "start_time": 8274.08,
+      "start_ts": "02:17:54.080",
+      "frames_expected": 114,
+      "frames_written": 114,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000238": {
+      "start_time": 8295.44,
+      "start_ts": "02:18:15.440",
+      "frames_expected": 242,
+      "frames_written": 242,
+      "ncc_mean": 0.9991,
+      "ncc_min": 0.9987,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000239": {
+      "start_time": 8332.16,
+      "start_ts": "02:18:52.160",
+      "frames_expected": 146,
+      "frames_written": 146,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000240": {
+      "start_time": 8405.0,
+      "start_ts": "02:20:05.000",
+      "frames_expected": 89,
+      "frames_written": 89,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000241": {
+      "start_time": 8438.2,
+      "start_ts": "02:20:38.200",
+      "frames_expected": 201,
+      "frames_written": 201,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000242": {
+      "start_time": 8476.36,
+      "start_ts": "02:21:16.360",
+      "frames_expected": 122,
+      "frames_written": 122,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9989,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000243": {
+      "start_time": 8499.56,
+      "start_ts": "02:21:39.560",
+      "frames_expected": 331,
+      "frames_written": 331,
+      "ncc_mean": 0.9992,
+      "ncc_min": 0.9988,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000247": {
+      "start_time": 8624.52,
+      "start_ts": "02:23:44.520",
+      "frames_expected": 180,
+      "frames_written": 180,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000248": {
+      "start_time": 8648.92,
+      "start_ts": "02:24:08.920",
+      "frames_expected": 181,
+      "frames_written": 181,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.9991,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000249": {
+      "start_time": 8675.24,
+      "start_ts": "02:24:35.240",
+      "frames_expected": 161,
+      "frames_written": 161,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000250": {
+      "start_time": 8704.72,
+      "start_ts": "02:25:04.720",
+      "frames_expected": 192,
+      "frames_written": 192,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    },
+    "rally_000251": {
+      "start_time": 8737.2,
+      "start_ts": "02:25:37.200",
+      "frames_expected": 332,
+      "frames_written": 332,
+      "ncc_mean": 0.9993,
+      "ncc_min": 0.999,
+      "frames_below_0.9": 0,
+      "missing": 0
+    }
+  },
+  "meta": {
+    "match_id": "jpn_bra_menvnl23_1080p",
+    "source_video": "🇯🇵 JPN vs. 🇧🇷 BRA - Full Match Mens VNL 2023.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 25.0,
+    "jpeg_qscale": 2
+  }
+}

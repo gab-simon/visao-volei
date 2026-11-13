@@ -1,0 +1,3 @@
+serve,serve_x,serve_y,serve_max,receive,receive_x,receive_y,receive_max,set,set_x,set_y,set_max,spike,spike_x,spike_y,spike_max,block,block_x,block_y,block_max,score,score_x,score_y,score_max
+13.0,187.0,103.0,0.0,41.0,71.0,110.0,0.0,0.0,0.0,0.0,0.0,77.0,119.0,83.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+0.0,0.0,0.0,0.0,119.0,169.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
