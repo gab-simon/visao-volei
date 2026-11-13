@@ -12,7 +12,8 @@ acompanhadas de uma versão dos frames em resolução mais alta.
 | `jpn_bra_menvnl23_1080p.json` | `vnl_1.5/all.json` (cópia sem alterações; idêntica a `train.json`) | 189 rallies: `video`, `num_frames`, `fps` (25), `num_events`, `events` = [`frame`, `label`, `xy`] |
 | `labels_csv/jpn_bra_menvnl23_1080p/*.csv` | `vnl_1.5/labels_csv/` (cópia sem alterações) | mesmos eventos em formato tabular |
 | `class.txt` | `vnl_1.5/class.txt` | classes: background, block, receive, score, serve, set, spike |
-| `frames_720p_manifest.json` | gerado | início de cada rally no vídeo completo e verificação dos frames reextraídos |
+| `frames_720p_manifest.json` | gerado | início de cada rally no vídeo completo, verificação dos frames reextraídos e `frames_mantidos` |
+| `serves.json` | gerado | os 207 saques: `rally`, `frame`, `xy`, `janela` [início, fim], tempo no rally e no vídeo, `flags` |
 
 Atenção nos CSVs: as colunas `<evento>_x`/`<evento>_y` são `xy × 224` **nos dois
 eixos** (grade 224×224, não 398×224). Para coordenadas em pixels prefira
@@ -26,10 +27,14 @@ A partida está no split **train** do VNL-STES. Rallies numerados de 0 a 251, co
 
 ## Frames em 720p (não versionados)
 
+Só são mantidos os frames das **janelas de saque**: do frame do `serve` −25 até
++75 (1 s antes, 3 s depois), limitado ao rally. Ficam 18.160 frames por resolução
+(224p e 720p), dos 38.908 do dataset. Os índices fora das janelas não têm arquivo.
+
 O dataset original distribui os frames em 398×224. Os frames desta partida
 foram reextraídos da transmissão completa (YouTube, 1280×720, 25 fps,
 02:33:05) para `data/frames_720p/jpn_bra_menvnl23_1080p/rally_NNNNNN/NNNNNN.jpg`,
-**com a mesma quantidade e numeração de arquivos** de `frames_224p`. Portanto:
+**com a mesma numeração de arquivos** de `frames_224p`. Portanto:
 
 - `events[].frame` aponta para o mesmo instante nas duas versões;
 - `events[].xy` é normalizado em [0, 1] e vale para qualquer resolução.
@@ -52,7 +57,7 @@ cada frame de 720p com o frame de mesmo índice do dataset de 224p:
 
 ```bash
 uv run validar_sincronizacao.py                        # todos os rallies, 10 frames/rally (~10 s)
-uv run validar_sincronizacao.py --todos-frames         # os 38.908 frames
+uv run validar_sincronizacao.py --todos-frames         # os 18.160 frames
 uv run validar_sincronizacao.py --rally rally_000016 --mostrar      # janela lado a lado
 uv run validar_sincronizacao.py --rally rally_000016 --salvar cmp/  # grava JPGs lado a lado
 uv run validar_sincronizacao.py --imagem print.png     # acha o frame do dataset de um print do vídeo

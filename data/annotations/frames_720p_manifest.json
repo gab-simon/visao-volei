@@ -8,7 +8,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          164
+        ]
+      ]
     },
     "rally_000016": {
       "start_time": 476.56,
@@ -18,7 +24,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9992,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          75
+        ]
+      ]
     },
     "rally_000001": {
       "start_time": 37.4,
@@ -28,7 +40,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000002": {
       "start_time": 60.8,
@@ -38,7 +56,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          86
+        ]
+      ]
     },
     "rally_000003": {
       "start_time": 86.0,
@@ -48,7 +72,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000004": {
       "start_time": 119.52,
@@ -58,7 +88,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000005": {
       "start_time": 141.84,
@@ -68,7 +104,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9987,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000006": {
       "start_time": 162.0,
@@ -78,7 +120,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          164
+        ]
+      ]
     },
     "rally_000007": {
       "start_time": 189.56,
@@ -88,7 +136,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          86
+        ]
+      ]
     },
     "rally_000009": {
       "start_time": 233.0,
@@ -98,7 +152,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000011": {
       "start_time": 278.76,
@@ -108,7 +168,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000012": {
       "start_time": 325.64,
@@ -118,7 +184,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000013": {
       "start_time": 351.92,
@@ -128,7 +200,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9982,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          41,
+          141
+        ]
+      ]
     },
     "rally_000014": {
       "start_time": 424.68,
@@ -138,7 +216,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000015": {
       "start_time": 444.16,
@@ -148,7 +232,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000017": {
       "start_time": 494.8,
@@ -158,7 +248,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000019": {
       "start_time": 524.76,
@@ -168,7 +264,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000021": {
       "start_time": 586.52,
@@ -178,7 +280,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000022": {
       "start_time": 611.16,
@@ -188,7 +296,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9985,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          19,
+          119
+        ]
+      ]
     },
     "rally_000023": {
       "start_time": 635.76,
@@ -198,7 +312,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000024": {
       "start_time": 661.52,
@@ -208,7 +328,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ],
+        [
+          204,
+          304
+        ]
+      ]
     },
     "rally_000025": {
       "start_time": 698.4,
@@ -218,7 +348,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000026": {
       "start_time": 734.72,
@@ -228,7 +364,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          4,
+          104
+        ]
+      ]
     },
     "rally_000027": {
       "start_time": 755.56,
@@ -238,7 +380,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          73
+        ]
+      ]
     },
     "rally_000029": {
       "start_time": 815.32,
@@ -248,7 +396,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          72
+        ]
+      ]
     },
     "rally_000030": {
       "start_time": 837.32,
@@ -258,7 +412,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          77
+        ]
+      ]
     },
     "rally_000032": {
       "start_time": 903.92,
@@ -268,7 +428,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          94
+        ]
+      ]
     },
     "rally_000036": {
       "start_time": 934.76,
@@ -278,7 +444,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          90
+        ]
+      ]
     },
     "rally_000038": {
       "start_time": 981.24,
@@ -288,7 +460,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000039": {
       "start_time": 1010.6,
@@ -298,7 +476,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000040": {
       "start_time": 1030.56,
@@ -308,7 +492,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          96
+        ]
+      ]
     },
     "rally_000041": {
       "start_time": 1054.88,
@@ -318,7 +508,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9984,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000042": {
       "start_time": 1094.32,
@@ -328,7 +524,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000043": {
       "start_time": 1179.48,
@@ -338,7 +540,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000044": {
       "start_time": 1201.76,
@@ -348,7 +556,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          76
+        ]
+      ]
     },
     "rally_000047": {
       "start_time": 1229.8,
@@ -358,7 +572,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          165
+        ]
+      ]
     },
     "rally_000048": {
       "start_time": 1269.8,
@@ -368,7 +588,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000049": {
       "start_time": 1305.16,
@@ -378,7 +604,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000050": {
       "start_time": 1336.08,
@@ -388,7 +620,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000051": {
       "start_time": 1359.68,
@@ -398,7 +636,17 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ],
+        [
+          316,
+          416
+        ]
+      ]
     },
     "rally_000052": {
       "start_time": 1458.88,
@@ -408,7 +656,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ]
+      ]
     },
     "rally_000053": {
       "start_time": 1485.2,
@@ -418,7 +672,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          97
+        ]
+      ]
     },
     "rally_000054": {
       "start_time": 1711.76,
@@ -428,7 +688,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000055": {
       "start_time": 1740.8,
@@ -438,7 +704,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          76
+        ]
+      ]
     },
     "rally_000056": {
       "start_time": 1767.76,
@@ -448,7 +720,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000057": {
       "start_time": 1789.08,
@@ -458,7 +736,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000058": {
       "start_time": 1818.8,
@@ -468,7 +752,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000059": {
       "start_time": 1843.72,
@@ -478,7 +768,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          7,
+          107
+        ]
+      ]
     },
     "rally_000060": {
       "start_time": 1869.32,
@@ -488,7 +784,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000062": {
       "start_time": 1927.04,
@@ -498,7 +800,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000063": {
       "start_time": 1956.2,
@@ -508,7 +816,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000064": {
       "start_time": 1973.56,
@@ -518,7 +832,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000065": {
       "start_time": 1994.12,
@@ -528,7 +848,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000066": {
       "start_time": 2035.76,
@@ -538,7 +864,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000067": {
       "start_time": 2154.72,
@@ -548,7 +880,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000068": {
       "start_time": 2178.88,
@@ -558,7 +896,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9986,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          238,
+          338
+        ]
+      ]
     },
     "rally_000069": {
       "start_time": 2217.12,
@@ -568,7 +912,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000070": {
       "start_time": 2237.12,
@@ -578,7 +928,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ],
+        [
+          89,
+          189
+        ]
+      ]
     },
     "rally_000071": {
       "start_time": 2277.56,
@@ -588,7 +948,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000073": {
       "start_time": 2345.92,
@@ -598,7 +964,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000074": {
       "start_time": 2372.6,
@@ -608,7 +980,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ],
+        [
+          93,
+          189
+        ]
+      ]
     },
     "rally_000075": {
       "start_time": 2408.52,
@@ -618,7 +1000,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000076": {
       "start_time": 2427.28,
@@ -628,7 +1016,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          98
+        ]
+      ]
     },
     "rally_000077": {
       "start_time": 2451.76,
@@ -638,7 +1032,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          94
+        ]
+      ]
     },
     "rally_000078": {
       "start_time": 2545.16,
@@ -648,7 +1048,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          94
+        ],
+        [
+          389,
+          489
+        ]
+      ]
     },
     "rally_000079": {
       "start_time": 2592.48,
@@ -658,7 +1068,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000080": {
       "start_time": 2613.24,
@@ -668,7 +1084,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          90
+        ]
+      ]
     },
     "rally_000082": {
       "start_time": 2661.08,
@@ -678,7 +1100,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          4,
+          160
+        ]
+      ]
     },
     "rally_000084": {
       "start_time": 2715.88,
@@ -688,7 +1116,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          61,
+          161
+        ]
+      ]
     },
     "rally_000085": {
       "start_time": 2744.2,
@@ -698,7 +1132,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000086": {
       "start_time": 2787.52,
@@ -708,7 +1148,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000087": {
       "start_time": 2820.64,
@@ -718,7 +1164,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000088": {
       "start_time": 2849.4,
@@ -728,7 +1180,13 @@
       "ncc_mean": 0.9991,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000089": {
       "start_time": 2871.36,
@@ -738,7 +1196,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000090": {
       "start_time": 2907.88,
@@ -748,7 +1212,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000091": {
       "start_time": 2925.88,
@@ -758,7 +1228,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          7,
+          164
+        ]
+      ]
     },
     "rally_000092": {
       "start_time": 2953.68,
@@ -768,7 +1244,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          94
+        ]
+      ]
     },
     "rally_000096": {
       "start_time": 3030.12,
@@ -778,7 +1260,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          90
+        ]
+      ]
     },
     "rally_000097": {
       "start_time": 3058.08,
@@ -788,7 +1276,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          22,
+          122
+        ],
+        [
+          272,
+          372
+        ]
+      ]
     },
     "rally_000099": {
       "start_time": 3112.4,
@@ -798,7 +1296,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000100": {
       "start_time": 3132.92,
@@ -808,7 +1312,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000101": {
       "start_time": 3170.96,
@@ -818,7 +1328,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000102": {
       "start_time": 3197.56,
@@ -828,7 +1344,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          174,
+          274
+        ]
+      ]
     },
     "rally_000103": {
       "start_time": 3237.2,
@@ -838,7 +1360,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          97
+        ]
+      ]
     },
     "rally_000104": {
       "start_time": 3261.96,
@@ -848,7 +1376,13 @@
       "ncc_mean": 0.9989,
       "ncc_min": 0.9262,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ]
+      ]
     },
     "rally_000105": {
       "start_time": 3605.6,
@@ -858,7 +1392,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000106": {
       "start_time": 3631.6,
@@ -868,7 +1408,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000107": {
       "start_time": 3659.04,
@@ -878,7 +1424,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          95
+        ]
+      ]
     },
     "rally_000110": {
       "start_time": 3682.96,
@@ -888,7 +1440,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000111": {
       "start_time": 3708.2,
@@ -898,7 +1456,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000116": {
       "start_time": 3802.28,
@@ -908,7 +1472,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000117": {
       "start_time": 3831.44,
@@ -918,7 +1488,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          27,
+          127
+        ]
+      ]
     },
     "rally_000119": {
       "start_time": 3881.52,
@@ -928,7 +1504,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9987,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000120": {
       "start_time": 3925.28,
@@ -938,7 +1520,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9985,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          4,
+          104
+        ]
+      ]
     },
     "rally_000121": {
       "start_time": 4133.52,
@@ -948,7 +1536,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000124": {
       "start_time": 4189.44,
@@ -958,7 +1552,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          77
+        ]
+      ]
     },
     "rally_000125": {
       "start_time": 4210.88,
@@ -968,7 +1568,17 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ],
+        [
+          89,
+          189
+        ]
+      ]
     },
     "rally_000126": {
       "start_time": 4245.32,
@@ -978,7 +1588,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          83
+        ]
+      ]
     },
     "rally_000127": {
       "start_time": 4271.0,
@@ -988,7 +1604,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9987,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          77
+        ]
+      ]
     },
     "rally_000128": {
       "start_time": 4296.64,
@@ -998,7 +1620,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000130": {
       "start_time": 4364.8,
@@ -1008,7 +1636,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          134
+        ]
+      ]
     },
     "rally_000131": {
       "start_time": 4394.48,
@@ -1018,7 +1652,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          73
+        ]
+      ]
     },
     "rally_000132": {
       "start_time": 4412.0,
@@ -1028,7 +1668,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000135": {
       "start_time": 4437.4,
@@ -1038,7 +1684,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000137": {
       "start_time": 4536.04,
@@ -1048,7 +1700,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000138": {
       "start_time": 4564.44,
@@ -1058,7 +1716,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000139": {
       "start_time": 4607.56,
@@ -1068,7 +1732,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000140": {
       "start_time": 4635.92,
@@ -1078,7 +1748,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          6,
+          106
+        ]
+      ]
     },
     "rally_000141": {
       "start_time": 4662.76,
@@ -1088,7 +1764,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          80
+        ]
+      ]
     },
     "rally_000142": {
       "start_time": 4735.6,
@@ -1098,7 +1780,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          2,
+          102
+        ]
+      ]
     },
     "rally_000145": {
       "start_time": 4773.24,
@@ -1108,7 +1796,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000146": {
       "start_time": 4818.76,
@@ -1118,7 +1812,13 @@
       "ncc_mean": 0.9994,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000148": {
       "start_time": 4903.88,
@@ -1128,7 +1828,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          5,
+          105
+        ]
+      ]
     },
     "rally_000149": {
       "start_time": 4935.68,
@@ -1138,7 +1844,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          74
+        ]
+      ]
     },
     "rally_000150": {
       "start_time": 5293.6,
@@ -1148,7 +1860,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000151": {
       "start_time": 5310.92,
@@ -1158,7 +1876,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ],
+        [
+          177,
+          273
+        ]
+      ]
     },
     "rally_000152": {
       "start_time": 5361.6,
@@ -1168,7 +1896,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          1,
+          92
+        ]
+      ]
     },
     "rally_000153": {
       "start_time": 5381.88,
@@ -1178,7 +1912,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          83
+        ]
+      ]
     },
     "rally_000155": {
       "start_time": 5411.16,
@@ -1188,7 +1928,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          99
+        ]
+      ]
     },
     "rally_000156": {
       "start_time": 5436.0,
@@ -1198,7 +1944,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          40,
+          140
+        ]
+      ]
     },
     "rally_000157": {
       "start_time": 5682.96,
@@ -1208,7 +1960,13 @@
       "ncc_mean": 0.9994,
       "ncc_min": 0.9992,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          97
+        ]
+      ]
     },
     "rally_000158": {
       "start_time": 5708.0,
@@ -1218,7 +1976,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000159": {
       "start_time": 5736.16,
@@ -1228,7 +1992,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000160": {
       "start_time": 5760.48,
@@ -1238,7 +2008,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000161": {
       "start_time": 5792.6,
@@ -1248,7 +2024,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          76
+        ]
+      ]
     },
     "rally_000163": {
       "start_time": 5845.64,
@@ -1258,7 +2040,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000164": {
       "start_time": 5875.8,
@@ -1268,7 +2056,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000165": {
       "start_time": 5954.36,
@@ -1278,7 +2072,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          98
+        ]
+      ]
     },
     "rally_000166": {
       "start_time": 5981.24,
@@ -1288,7 +2088,13 @@
       "ncc_mean": 0.9991,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          83
+        ]
+      ]
     },
     "rally_000167": {
       "start_time": 6019.48,
@@ -1298,7 +2104,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000168": {
       "start_time": 6046.72,
@@ -1308,7 +2120,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          72
+        ]
+      ]
     },
     "rally_000169": {
       "start_time": 6076.72,
@@ -1318,7 +2136,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          97
+        ]
+      ]
     },
     "rally_000170": {
       "start_time": 6102.28,
@@ -1328,7 +2152,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000171": {
       "start_time": 6127.88,
@@ -1338,7 +2168,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          34,
+          134
+        ]
+      ]
     },
     "rally_000173": {
       "start_time": 6173.32,
@@ -1348,7 +2184,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          171
+        ]
+      ]
     },
     "rally_000174": {
       "start_time": 6202.08,
@@ -1358,7 +2200,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000175": {
       "start_time": 6243.52,
@@ -1368,7 +2216,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ]
+      ]
     },
     "rally_000176": {
       "start_time": 6271.56,
@@ -1378,7 +2232,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000178": {
       "start_time": 6319.24,
@@ -1388,7 +2248,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000179": {
       "start_time": 6345.72,
@@ -1398,7 +2264,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000180": {
       "start_time": 6358.2,
@@ -1408,7 +2280,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          119,
+          219
+        ]
+      ]
     },
     "rally_000182": {
       "start_time": 6430.08,
@@ -1418,7 +2296,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          94
+        ]
+      ]
     },
     "rally_000183": {
       "start_time": 6460.44,
@@ -1428,7 +2312,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000189": {
       "start_time": 6571.2,
@@ -1438,7 +2328,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          86
+        ]
+      ]
     },
     "rally_000191": {
       "start_time": 6623.96,
@@ -1448,7 +2344,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          93
+        ]
+      ]
     },
     "rally_000192": {
       "start_time": 6648.6,
@@ -1458,7 +2360,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          81
+        ]
+      ]
     },
     "rally_000195": {
       "start_time": 6699.24,
@@ -1468,7 +2376,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000196": {
       "start_time": 6732.28,
@@ -1478,7 +2392,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          6,
+          106
+        ]
+      ]
     },
     "rally_000197": {
       "start_time": 6761.36,
@@ -1488,7 +2408,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ],
+        [
+          214,
+          314
+        ]
+      ]
     },
     "rally_000198": {
       "start_time": 6813.84,
@@ -1498,7 +2428,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000199": {
       "start_time": 6872.0,
@@ -1508,7 +2444,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          92
+        ]
+      ]
     },
     "rally_000200": {
       "start_time": 6912.04,
@@ -1518,7 +2460,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000201": {
       "start_time": 6939.24,
@@ -1528,7 +2476,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000202": {
       "start_time": 6977.84,
@@ -1538,7 +2492,17 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          91,
+          191
+        ],
+        [
+          273,
+          373
+        ]
+      ]
     },
     "rally_000204": {
       "start_time": 7064.56,
@@ -1548,7 +2512,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000207": {
       "start_time": 7238.56,
@@ -1558,7 +2528,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000208": {
       "start_time": 7265.24,
@@ -1568,7 +2544,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000209": {
       "start_time": 7533.96,
@@ -1578,7 +2560,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000210": {
       "start_time": 7561.72,
@@ -1588,7 +2576,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          86
+        ]
+      ]
     },
     "rally_000211": {
       "start_time": 7597.48,
@@ -1598,7 +2592,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          93
+        ]
+      ]
     },
     "rally_000212": {
       "start_time": 7640.08,
@@ -1608,7 +2608,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000213": {
       "start_time": 7665.68,
@@ -1618,7 +2624,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9985,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          85
+        ]
+      ]
     },
     "rally_000215": {
       "start_time": 7729.56,
@@ -1628,7 +2640,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          212,
+          308
+        ]
+      ]
     },
     "rally_000216": {
       "start_time": 7767.88,
@@ -1638,7 +2656,13 @@
       "ncc_mean": 0.9991,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          91
+        ]
+      ]
     },
     "rally_000217": {
       "start_time": 7787.36,
@@ -1648,7 +2672,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          77
+        ]
+      ]
     },
     "rally_000218": {
       "start_time": 7810.2,
@@ -1658,7 +2688,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          134
+        ]
+      ]
     },
     "rally_000220": {
       "start_time": 7893.44,
@@ -1668,7 +2704,13 @@
       "ncc_mean": 0.9994,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ]
+      ]
     },
     "rally_000221": {
       "start_time": 7924.84,
@@ -1678,7 +2720,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000223": {
       "start_time": 7989.44,
@@ -1688,7 +2736,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          93
+        ]
+      ]
     },
     "rally_000225": {
       "start_time": 8020.2,
@@ -1698,7 +2752,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          147,
+          242
+        ]
+      ]
     },
     "rally_000226": {
       "start_time": 8049.88,
@@ -1708,7 +2768,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          77
+        ]
+      ]
     },
     "rally_000230": {
       "start_time": 8077.56,
@@ -1718,7 +2784,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          83
+        ]
+      ]
     },
     "rally_000231": {
       "start_time": 8098.96,
@@ -1728,7 +2800,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          78
+        ]
+      ]
     },
     "rally_000233": {
       "start_time": 8130.6,
@@ -1738,7 +2816,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          82
+        ]
+      ]
     },
     "rally_000234": {
       "start_time": 8160.6,
@@ -1748,7 +2832,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000235": {
       "start_time": 8195.4,
@@ -1758,7 +2848,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000236": {
       "start_time": 8227.08,
@@ -1768,7 +2864,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          89
+        ]
+      ]
     },
     "rally_000237": {
       "start_time": 8274.08,
@@ -1778,7 +2880,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          84
+        ]
+      ]
     },
     "rally_000238": {
       "start_time": 8295.44,
@@ -1788,7 +2896,13 @@
       "ncc_mean": 0.9991,
       "ncc_min": 0.9987,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000239": {
       "start_time": 8332.16,
@@ -1798,7 +2912,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          95
+        ]
+      ]
     },
     "rally_000240": {
       "start_time": 8405.0,
@@ -1808,7 +2928,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          88
+        ]
+      ]
     },
     "rally_000241": {
       "start_time": 8438.2,
@@ -1818,7 +2944,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          2,
+          102
+        ]
+      ]
     },
     "rally_000242": {
       "start_time": 8476.36,
@@ -1828,7 +2960,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9989,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          16,
+          116
+        ]
+      ]
     },
     "rally_000243": {
       "start_time": 8499.56,
@@ -1838,7 +2976,13 @@
       "ncc_mean": 0.9992,
       "ncc_min": 0.9988,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          95
+        ]
+      ]
     },
     "rally_000247": {
       "start_time": 8624.52,
@@ -1848,7 +2992,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          95
+        ]
+      ]
     },
     "rally_000248": {
       "start_time": 8648.92,
@@ -1858,7 +3008,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.9991,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          87
+        ]
+      ]
     },
     "rally_000249": {
       "start_time": 8675.24,
@@ -1868,7 +3024,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          79
+        ]
+      ]
     },
     "rally_000250": {
       "start_time": 8704.72,
@@ -1878,7 +3040,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          11,
+          111
+        ]
+      ]
     },
     "rally_000251": {
       "start_time": 8737.2,
@@ -1888,7 +3056,13 @@
       "ncc_mean": 0.9993,
       "ncc_min": 0.999,
       "frames_below_0.9": 0,
-      "missing": 0
+      "missing": 0,
+      "frames_mantidos": [
+        [
+          0,
+          97
+        ]
+      ]
     }
   },
   "meta": {
@@ -1897,6 +3071,10 @@
     "width": 1280,
     "height": 720,
     "fps": 25.0,
-    "jpeg_qscale": 2
+    "jpeg_qscale": 2,
+    "recorte": {
+      "regra": "apenas janelas de saque: frame do serve -25 a +75 (1 s antes, 3 s depois), limitado ao rally",
+      "frames_por_resolucao": 18160
+    }
   }
 }

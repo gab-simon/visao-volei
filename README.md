@@ -8,9 +8,14 @@ Projeto de Visão Computacional aplicada ao vôlei (UFPR). Usa o dataset
 **Japão × Brasil, VNL 2023 masculino** (`jpn_bra_menvnl23_1080p`).
 
 O VNL-STES distribui os frames em 398×224, pequeno demais para rastrear a bola.
-Aqui os frames dos 189 rallies da partida foram reextraídos da transmissão
-completa em **1280×720**, com a mesma numeração do dataset original. Assim as
-anotações (`frame`, `xy`) continuam valendo sem nenhuma conversão.
+Aqui os frames da partida foram reextraídos da transmissão completa em
+**1280×720**, com a mesma numeração do dataset original. Assim as anotações
+(`frame`, `xy`) continuam valendo sem nenhuma conversão.
+
+Como o foco é o saque, só ficam os frames ao redor de cada `serve`: de
+**1 s antes a 3 s depois** (frame do serve −25 até +75, a 25 fps), limitado ao
+tamanho do rally. São 207 saques em 189 rallies, ou seja, 18.160 frames por
+resolução, contra 38.908 no dataset inteiro.
 
 ## Estrutura
 
@@ -24,12 +29,13 @@ visao-volei/
     │   ├── jpn_bra_menvnl23_1080p.json   anotações originais (189 rallies)
     │   ├── labels_csv/jpn_bra_menvnl23_1080p/rally_NNNNNN.csv
     │   ├── class.txt
+    │   ├── serves.json               cada saque: rally, frame, janela, timestamp no vídeo
     │   └── frames_720p_manifest.json     início de cada rally no vídeo + verificação
     ├── frames_224p/jpn_bra_menvnl23_1080p/rally_NNNNNN/NNNNNN.jpg   NÃO versionado
     └── frames_720p/jpn_bra_menvnl23_1080p/rally_NNNNNN/NNNNNN.jpg   NÃO versionado
 ```
 
-As imagens (cerca de 8,6 GB) não vão para o git. Elas são distribuídas à parte, em
+As imagens (cerca de 4 GB) não vão para o git. Elas são distribuídas à parte, em
 `jpn_bra_vnl23_720p.zip`, que já contém este README, o script e a pasta
 `data/` completa. Basta descompactar e rodar.
 
@@ -42,7 +48,9 @@ As imagens (cerca de 8,6 GB) não vão para o git. Elas são distribuídas à pa
 - `events[].xy` é normalizado em [0, 1]: multiplique por (1280, 720) para obter pixels no 720p.
 - Cuidado com os CSVs: as coordenadas em pixel estão numa grade 224×224. Prefira o JSON.
 - O dataset tem erros de rótulo conhecidos. Exemplo: no `rally_000000`, frame 89, um ataque
-  na rede também está rotulado como `serve`.
+  na rede também está rotulado como `serve`. Nenhum saque foi descartado: os suspeitos estão
+  marcados em `serves.json` (`flags`). São 7 no mesmo frame de outro evento e 15 rallies
+  com dois `serve`.
 
 ## Validar a sincronização
 

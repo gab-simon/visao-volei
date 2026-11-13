@@ -19,10 +19,13 @@ Estrutura esperada (pasta ``data`` ao lado deste script, ou ``--dados``)::
     data/frames_224p/jpn_bra_menvnl23_1080p/rally_NNNNNN/NNNNNN.jpg   (dataset original)
     data/frames_720p/jpn_bra_menvnl23_1080p/rally_NNNNNN/NNNNNN.jpg   (reextraído do vídeo)
 
+Só existem os frames das janelas de saque (serve -25 a +75), com a numeração
+original; os demais índices do rally simplesmente não têm arquivo.
+
 Exemplos::
 
     uv run validar_sincronizacao.py                         # todos os rallies, 10 frames por rally
-    uv run validar_sincronizacao.py --todos-frames          # todos os ~39 mil frames
+    uv run validar_sincronizacao.py --todos-frames          # todos os ~18 mil frames
     uv run validar_sincronizacao.py --rally rally_000016 --mostrar
     uv run validar_sincronizacao.py --rally rally_000003 --salvar comparacoes/
     uv run validar_sincronizacao.py --imagem print.png      # qual frame do dataset é esse print?
@@ -83,11 +86,9 @@ class Dados:
             if not d.is_dir():
                 sys.exit(f"pasta não encontrada: {d}")
 
-    def n_frames(self, rally: str) -> int:
-        d, n = self.dir224 / rally, 0
-        while (d / f"{n:06d}.jpg").exists():
-            n += 1
-        return n
+    def frames(self, rally: str) -> list[int]:
+        """Índices dos frames presentes (só as janelas de saque são mantidas)."""
+        return sorted(int(p.stem) for p in (self.dir224 / rally).glob("*.jpg"))
 
     def f224(self, rally: str, i: int) -> Path:
         return self.dir224 / rally / f"{i:06d}.jpg"
@@ -153,11 +154,12 @@ class Saida:
 
 # ----------------------------------------------------------------- modos
 
-def amostrar(n: int, k: int | None, eventos: list[int]) -> list[int]:
-    if k is None or k >= n:
-        return list(range(n))
-    idx = set(np.linspace(0, n - 1, k).round().astype(int).tolist())
-    idx.update(f for f in eventos if f < n)
+def amostrar(disponiveis: list[int], k: int | None, eventos: list[int]) -> list[int]:
+    if k is None or k >= len(disponiveis):
+        return list(disponiveis)
+    pos = np.linspace(0, len(disponiveis) - 1, k).round().astype(int)
+    idx = {disponiveis[p] for p in pos}
+    idx.update(f for f in eventos if f in set(disponiveis))
     return sorted(idx)
 
 
@@ -165,14 +167,17 @@ def validar_rallies(dados: Dados, args) -> int:
     rallies = args.rally or sorted(dados.rallies)
     saida = Saida(args.mostrar, Path(args.salvar) if args.salvar else None)
     reprovados, total, piores, abaixo = [], 0, [], []
-    print(f"{'rally':<14}{'início no vídeo':>17}{'frames':>8}{'NCC médio':>11}{'NCC mín':>9}  status")
+    print(f"{'rally':<14}{'1º frame no vídeo':>17}{'frames':>8}{'NCC médio':>11}{'NCC mín':>9}  status")
     for rally in rallies:
         if rally not in dados.rallies:
             print(f"{rally}: não existe nas anotações")
             continue
-        n = dados.n_frames(rally)
         ev = [e["frame"] for e in dados.rallies[rally]["events"]]
-        frames = amostrar(n, None if args.todos_frames else args.amostras, ev)
+        frames = amostrar(dados.frames(rally), None if args.todos_frames else args.amostras, ev)
+        if not frames:
+            print(f"{rally}: sem frames no disco")
+            reprovados.append(rally)
+            continue
         scores = []
         for i in frames:
             p720 = dados.f720(rally, i)
@@ -194,7 +199,7 @@ def validar_rallies(dados: Dados, args) -> int:
         if not ok:
             reprovados.append(rally)
         status = "OK" if ok else ("FALTAM FRAMES" if faltando else "REVISAR")
-        print(f"{rally:<14}{fmt_ts(dados.tempo_no_video(rally, 0)):>17}{len(frames):>8}"
+        print(f"{rally:<14}{fmt_ts(dados.tempo_no_video(rally, frames[0])):>17}{len(frames):>8}"
               f"{np.nanmean(arr):>11.4f}{np.nanmin(arr):>9.4f}  {status}")
     print(f"\n{len(rallies) - len(reprovados)}/{len(rallies)} rallies OK ({total} frames comparados, limiar {args.limiar})")
     piores.sort()
@@ -226,7 +231,7 @@ def validar_imagem(dados: Dados, args) -> int:
     nomes, descs = [], []
     rallies = sorted(dados.rallies)
     for k, rally in enumerate(rallies, 1):
-        for i in range(dados.n_frames(rally)):
+        for i in dados.frames(rally):
             nomes.append((rally, i))
             descs.append(descritor(cv2.imread(str(dados.f224(rally, i)), cv2.IMREAD_GRAYSCALE)))
         print(f"\rindexando dataset 224p: {k}/{len(rallies)} rallies", end="", flush=True)

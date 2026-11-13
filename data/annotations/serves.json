@@ -1,0 +1,3611 @@
+{
+  "regra": {
+    "antes_frames": 25,
+    "depois_frames": 75,
+    "fps": 25
+  },
+  "serves": [
+    {
+      "serve_id": "rally_000000_serve0",
+      "rally": "rally_000000",
+      "frame": 7,
+      "xy": [
+        0.7991071428571429,
+        0.47767857142857145
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 14.44,
+      "timestamp_video": "00:00:14.440",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000000_serve1",
+      "rally": "rally_000000",
+      "frame": 89,
+      "xy": [
+        0.39285714285714285,
+        0.33035714285714285
+      ],
+      "janela": [
+        64,
+        164
+      ],
+      "tempo_no_rally_s": 3.56,
+      "tempo_no_video_s": 17.72,
+      "timestamp_video": "00:00:17.720",
+      "flags": [
+        "mesmo_frame_de_outro_evento",
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000001_serve0",
+      "rally": "rally_000001",
+      "frame": 9,
+      "xy": [
+        0.17857142857142858,
+        0.4419642857142857
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 37.76,
+      "timestamp_video": "00:00:37.760",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000002_serve0",
+      "rally": "rally_000002",
+      "frame": 11,
+      "xy": [
+        0.8169642857142857,
+        0.40625
+      ],
+      "janela": [
+        0,
+        86
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 61.24,
+      "timestamp_video": "00:01:01.240",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000003_serve0",
+      "rally": "rally_000003",
+      "frame": 4,
+      "xy": [
+        0.8258928571428571,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 86.16,
+      "timestamp_video": "00:01:26.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000004_serve0",
+      "rally": "rally_000004",
+      "frame": 7,
+      "xy": [
+        0.8526785714285714,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 119.8,
+      "timestamp_video": "00:01:59.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000005_serve0",
+      "rally": "rally_000005",
+      "frame": 13,
+      "xy": [
+        0.14732142857142858,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 142.36,
+      "timestamp_video": "00:02:22.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000006_serve0",
+      "rally": "rally_000006",
+      "frame": 1,
+      "xy": [
+        0.8258928571428571,
+        0.4107142857142857
+      ],
+      "janela": [
+        0,
+        76
+      ],
+      "tempo_no_rally_s": 0.04,
+      "tempo_no_video_s": 162.04,
+      "timestamp_video": "00:02:42.040",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000006_serve1",
+      "rally": "rally_000006",
+      "frame": 89,
+      "xy": [
+        0.375,
+        0.21875
+      ],
+      "janela": [
+        64,
+        164
+      ],
+      "tempo_no_rally_s": 3.56,
+      "tempo_no_video_s": 165.56,
+      "timestamp_video": "00:02:45.560",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000007_serve0",
+      "rally": "rally_000007",
+      "frame": 11,
+      "xy": [
+        0.16517857142857142,
+        0.4330357142857143
+      ],
+      "janela": [
+        0,
+        86
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 190.0,
+      "timestamp_video": "00:03:10.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000009_serve0",
+      "rally": "rally_000009",
+      "frame": 16,
+      "xy": [
+        0.84375,
+        0.30357142857142855
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 233.64,
+      "timestamp_video": "00:03:53.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000011_serve0",
+      "rally": "rally_000011",
+      "frame": 16,
+      "xy": [
+        0.8392857142857143,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 279.4,
+      "timestamp_video": "00:04:39.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000012_serve0",
+      "rally": "rally_000012",
+      "frame": 12,
+      "xy": [
+        0.13839285714285715,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 326.12,
+      "timestamp_video": "00:05:26.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000013_serve0",
+      "rally": "rally_000013",
+      "frame": 66,
+      "xy": [
+        0.8482142857142857,
+        0.44642857142857145
+      ],
+      "janela": [
+        41,
+        141
+      ],
+      "tempo_no_rally_s": 2.64,
+      "tempo_no_video_s": 354.56,
+      "timestamp_video": "00:05:54.560",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000014_serve0",
+      "rally": "rally_000014",
+      "frame": 7,
+      "xy": [
+        0.875,
+        0.48660714285714285
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 424.96,
+      "timestamp_video": "00:07:04.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000015_serve0",
+      "rally": "rally_000015",
+      "frame": 10,
+      "xy": [
+        0.13392857142857142,
+        0.38839285714285715
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 444.56,
+      "timestamp_video": "00:07:24.560",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000016_serve0",
+      "rally": "rally_000016",
+      "frame": 2,
+      "xy": [
+        0.875,
+        0.41964285714285715
+      ],
+      "janela": [
+        0,
+        75
+      ],
+      "tempo_no_rally_s": 0.08,
+      "tempo_no_video_s": 476.64,
+      "timestamp_video": "00:07:56.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000017_serve0",
+      "rally": "rally_000017",
+      "frame": 10,
+      "xy": [
+        0.14732142857142858,
+        0.4107142857142857
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 495.2,
+      "timestamp_video": "00:08:15.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000019_serve0",
+      "rally": "rally_000019",
+      "frame": 9,
+      "xy": [
+        0.8526785714285714,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 525.12,
+      "timestamp_video": "00:08:45.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000021_serve0",
+      "rally": "rally_000021",
+      "frame": 6,
+      "xy": [
+        0.8482142857142857,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 586.76,
+      "timestamp_video": "00:09:46.760",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000022_serve0",
+      "rally": "rally_000022",
+      "frame": 44,
+      "xy": [
+        0.12053571428571429,
+        0.41517857142857145
+      ],
+      "janela": [
+        19,
+        119
+      ],
+      "tempo_no_rally_s": 1.76,
+      "tempo_no_video_s": 612.92,
+      "timestamp_video": "00:10:12.920",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000023_serve0",
+      "rally": "rally_000023",
+      "frame": 3,
+      "xy": [
+        0.9107142857142857,
+        0.29017857142857145
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 635.88,
+      "timestamp_video": "00:10:35.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000024_serve0",
+      "rally": "rally_000024",
+      "frame": 6,
+      "xy": [
+        0.09375,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 661.76,
+      "timestamp_video": "00:11:01.760",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000024_serve1",
+      "rally": "rally_000024",
+      "frame": 229,
+      "xy": [
+        0.6517857142857143,
+        0.27232142857142855
+      ],
+      "janela": [
+        204,
+        304
+      ],
+      "tempo_no_rally_s": 9.16,
+      "tempo_no_video_s": 670.68,
+      "timestamp_video": "00:11:10.680",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000025_serve0",
+      "rally": "rally_000025",
+      "frame": 6,
+      "xy": [
+        0.875,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 698.64,
+      "timestamp_video": "00:11:38.640",
+      "flags": [
+        "mesmo_frame_de_outro_evento"
+      ]
+    },
+    {
+      "serve_id": "rally_000026_serve0",
+      "rally": "rally_000026",
+      "frame": 29,
+      "xy": [
+        0.8794642857142857,
+        0.40625
+      ],
+      "janela": [
+        4,
+        104
+      ],
+      "tempo_no_rally_s": 1.16,
+      "tempo_no_video_s": 735.88,
+      "timestamp_video": "00:12:15.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000027_serve0",
+      "rally": "rally_000027",
+      "frame": 10,
+      "xy": [
+        0.11607142857142858,
+        0.38839285714285715
+      ],
+      "janela": [
+        0,
+        73
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 755.96,
+      "timestamp_video": "00:12:35.960",
+      "flags": [
+        "mesmo_frame_de_outro_evento"
+      ]
+    },
+    {
+      "serve_id": "rally_000029_serve0",
+      "rally": "rally_000029",
+      "frame": 8,
+      "xy": [
+        0.16964285714285715,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        72
+      ],
+      "tempo_no_rally_s": 0.32,
+      "tempo_no_video_s": 815.64,
+      "timestamp_video": "00:13:35.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000030_serve0",
+      "rally": "rally_000030",
+      "frame": 2,
+      "xy": [
+        0.8571428571428571,
+        0.36160714285714285
+      ],
+      "janela": [
+        0,
+        77
+      ],
+      "tempo_no_rally_s": 0.08,
+      "tempo_no_video_s": 837.4,
+      "timestamp_video": "00:13:57.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000032_serve0",
+      "rally": "rally_000032",
+      "frame": 19,
+      "xy": [
+        0.8392857142857143,
+        0.3392857142857143
+      ],
+      "janela": [
+        0,
+        94
+      ],
+      "tempo_no_rally_s": 0.76,
+      "tempo_no_video_s": 904.68,
+      "timestamp_video": "00:15:04.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000036_serve0",
+      "rally": "rally_000036",
+      "frame": 15,
+      "xy": [
+        0.125,
+        0.32142857142857145
+      ],
+      "janela": [
+        0,
+        90
+      ],
+      "tempo_no_rally_s": 0.6,
+      "tempo_no_video_s": 935.36,
+      "timestamp_video": "00:15:35.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000038_serve0",
+      "rally": "rally_000038",
+      "frame": 12,
+      "xy": [
+        0.16517857142857142,
+        0.4107142857142857
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 981.72,
+      "timestamp_video": "00:16:21.720",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000039_serve0",
+      "rally": "rally_000039",
+      "frame": 15,
+      "xy": [
+        0.14285714285714285,
+        0.40625
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.6,
+      "tempo_no_video_s": 1011.2,
+      "timestamp_video": "00:16:51.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000040_serve0",
+      "rally": "rally_000040",
+      "frame": 21,
+      "xy": [
+        0.8482142857142857,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        96
+      ],
+      "tempo_no_rally_s": 0.84,
+      "tempo_no_video_s": 1031.4,
+      "timestamp_video": "00:17:11.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000041_serve0",
+      "rally": "rally_000041",
+      "frame": 10,
+      "xy": [
+        0.10714285714285714,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 1055.28,
+      "timestamp_video": "00:17:35.280",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000042_serve0",
+      "rally": "rally_000042",
+      "frame": 6,
+      "xy": [
+        0.8571428571428571,
+        0.3080357142857143
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 1094.56,
+      "timestamp_video": "00:18:14.560",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000043_serve0",
+      "rally": "rally_000043",
+      "frame": 12,
+      "xy": [
+        0.8258928571428571,
+        0.36160714285714285
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 1179.96,
+      "timestamp_video": "00:19:39.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000044_serve0",
+      "rally": "rally_000044",
+      "frame": 1,
+      "xy": [
+        0.13392857142857142,
+        0.4017857142857143
+      ],
+      "janela": [
+        0,
+        76
+      ],
+      "tempo_no_rally_s": 0.04,
+      "tempo_no_video_s": 1201.8,
+      "timestamp_video": "00:20:01.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000047_serve0",
+      "rally": "rally_000047",
+      "frame": 10,
+      "xy": [
+        0.8258928571428571,
+        0.4017857142857143
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 1230.2,
+      "timestamp_video": "00:20:30.200",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000047_serve1",
+      "rally": "rally_000047",
+      "frame": 90,
+      "xy": [
+        0.46875,
+        0.34375
+      ],
+      "janela": [
+        65,
+        165
+      ],
+      "tempo_no_rally_s": 3.6,
+      "tempo_no_video_s": 1233.4,
+      "timestamp_video": "00:20:33.400",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000048_serve0",
+      "rally": "rally_000048",
+      "frame": 5,
+      "xy": [
+        0.10714285714285714,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 1270.0,
+      "timestamp_video": "00:21:10.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000049_serve0",
+      "rally": "rally_000049",
+      "frame": 7,
+      "xy": [
+        0.11160714285714286,
+        0.34375
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 1305.44,
+      "timestamp_video": "00:21:45.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000050_serve0",
+      "rally": "rally_000050",
+      "frame": 13,
+      "xy": [
+        0.8616071428571429,
+        0.38839285714285715
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 1336.6,
+      "timestamp_video": "00:22:16.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000051_serve0",
+      "rally": "rally_000051",
+      "frame": 14,
+      "xy": [
+        0.16964285714285715,
+        0.45089285714285715
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 1360.24,
+      "timestamp_video": "00:22:40.240",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000051_serve1",
+      "rally": "rally_000051",
+      "frame": 341,
+      "xy": [
+        0.6830357142857143,
+        0.25892857142857145
+      ],
+      "janela": [
+        316,
+        416
+      ],
+      "tempo_no_rally_s": 13.64,
+      "tempo_no_video_s": 1373.32,
+      "timestamp_video": "00:22:53.320",
+      "flags": [
+        "mesmo_frame_de_outro_evento",
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000052_serve0",
+      "rally": "rally_000052",
+      "frame": 14,
+      "xy": [
+        0.13392857142857142,
+        0.42857142857142855
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 1459.44,
+      "timestamp_video": "00:24:19.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000053_serve0",
+      "rally": "rally_000053",
+      "frame": 22,
+      "xy": [
+        0.15178571428571427,
+        0.39732142857142855
+      ],
+      "janela": [
+        0,
+        97
+      ],
+      "tempo_no_rally_s": 0.88,
+      "tempo_no_video_s": 1486.08,
+      "timestamp_video": "00:24:46.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000054_serve0",
+      "rally": "rally_000054",
+      "frame": 9,
+      "xy": [
+        0.17857142857142858,
+        0.4330357142857143
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 1712.12,
+      "timestamp_video": "00:28:32.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000055_serve0",
+      "rally": "rally_000055",
+      "frame": 1,
+      "xy": [
+        0.8482142857142857,
+        0.4330357142857143
+      ],
+      "janela": [
+        0,
+        76
+      ],
+      "tempo_no_rally_s": 0.04,
+      "tempo_no_video_s": 1740.84,
+      "timestamp_video": "00:29:00.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000056_serve0",
+      "rally": "rally_000056",
+      "frame": 9,
+      "xy": [
+        0.11607142857142858,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 1768.12,
+      "timestamp_video": "00:29:28.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000057_serve0",
+      "rally": "rally_000057",
+      "frame": 5,
+      "xy": [
+        0.8526785714285714,
+        0.4017857142857143
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 1789.28,
+      "timestamp_video": "00:29:49.280",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000058_serve0",
+      "rally": "rally_000058",
+      "frame": 5,
+      "xy": [
+        0.8214285714285714,
+        0.41964285714285715
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 1819.0,
+      "timestamp_video": "00:30:19.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000059_serve0",
+      "rally": "rally_000059",
+      "frame": 32,
+      "xy": [
+        0.8482142857142857,
+        0.40625
+      ],
+      "janela": [
+        7,
+        107
+      ],
+      "tempo_no_rally_s": 1.28,
+      "tempo_no_video_s": 1845.0,
+      "timestamp_video": "00:30:45.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000060_serve0",
+      "rally": "rally_000060",
+      "frame": 16,
+      "xy": [
+        0.14285714285714285,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 1869.96,
+      "timestamp_video": "00:31:09.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000062_serve0",
+      "rally": "rally_000062",
+      "frame": 4,
+      "xy": [
+        0.12053571428571429,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 1927.2,
+      "timestamp_video": "00:32:07.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000063_serve0",
+      "rally": "rally_000063",
+      "frame": 4,
+      "xy": [
+        0.8616071428571429,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 1956.36,
+      "timestamp_video": "00:32:36.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000064_serve0",
+      "rally": "rally_000064",
+      "frame": 12,
+      "xy": [
+        0.19642857142857142,
+        0.4419642857142857
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 1974.04,
+      "timestamp_video": "00:32:54.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000065_serve0",
+      "rally": "rally_000065",
+      "frame": 7,
+      "xy": [
+        0.8928571428571429,
+        0.32589285714285715
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 1994.4,
+      "timestamp_video": "00:33:14.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000066_serve0",
+      "rally": "rally_000066",
+      "frame": 9,
+      "xy": [
+        0.84375,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 2036.12,
+      "timestamp_video": "00:33:56.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000067_serve0",
+      "rally": "rally_000067",
+      "frame": 9,
+      "xy": [
+        0.8571428571428571,
+        0.32142857142857145
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 2155.08,
+      "timestamp_video": "00:35:55.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000068_serve0",
+      "rally": "rally_000068",
+      "frame": 263,
+      "xy": [
+        0.5044642857142857,
+        0.2767857142857143
+      ],
+      "janela": [
+        238,
+        338
+      ],
+      "tempo_no_rally_s": 10.52,
+      "tempo_no_video_s": 2189.4,
+      "timestamp_video": "00:36:29.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000069_serve0",
+      "rally": "rally_000069",
+      "frame": 5,
+      "xy": [
+        0.8526785714285714,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 2217.32,
+      "timestamp_video": "00:36:57.320",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000070_serve0",
+      "rally": "rally_000070",
+      "frame": 10,
+      "xy": [
+        0.16071428571428573,
+        0.41964285714285715
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 2237.52,
+      "timestamp_video": "00:37:17.520",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000070_serve1",
+      "rally": "rally_000070",
+      "frame": 114,
+      "xy": [
+        0.5714285714285714,
+        0.34375
+      ],
+      "janela": [
+        89,
+        189
+      ],
+      "tempo_no_rally_s": 4.56,
+      "tempo_no_video_s": 2241.68,
+      "timestamp_video": "00:37:21.680",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000071_serve0",
+      "rally": "rally_000071",
+      "frame": 16,
+      "xy": [
+        0.13392857142857142,
+        0.39732142857142855
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 2278.2,
+      "timestamp_video": "00:37:58.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000073_serve0",
+      "rally": "rally_000073",
+      "frame": 4,
+      "xy": [
+        0.10714285714285714,
+        0.3794642857142857
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 2346.08,
+      "timestamp_video": "00:39:06.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000074_serve0",
+      "rally": "rally_000074",
+      "frame": 5,
+      "xy": [
+        0.875,
+        0.38839285714285715
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 2372.8,
+      "timestamp_video": "00:39:32.800",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000074_serve1",
+      "rally": "rally_000074",
+      "frame": 118,
+      "xy": [
+        0.3705357142857143,
+        0.21428571428571427
+      ],
+      "janela": [
+        93,
+        189
+      ],
+      "tempo_no_rally_s": 4.72,
+      "tempo_no_video_s": 2377.32,
+      "timestamp_video": "00:39:37.320",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000075_serve0",
+      "rally": "rally_000075",
+      "frame": 13,
+      "xy": [
+        0.8214285714285714,
+        0.42857142857142855
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 2409.04,
+      "timestamp_video": "00:40:09.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000076_serve0",
+      "rally": "rally_000076",
+      "frame": 23,
+      "xy": [
+        0.16071428571428573,
+        0.4017857142857143
+      ],
+      "janela": [
+        0,
+        98
+      ],
+      "tempo_no_rally_s": 0.92,
+      "tempo_no_video_s": 2428.2,
+      "timestamp_video": "00:40:28.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000077_serve0",
+      "rally": "rally_000077",
+      "frame": 19,
+      "xy": [
+        0.8392857142857143,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        94
+      ],
+      "tempo_no_rally_s": 0.76,
+      "tempo_no_video_s": 2452.52,
+      "timestamp_video": "00:40:52.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000078_serve0",
+      "rally": "rally_000078",
+      "frame": 19,
+      "xy": [
+        0.8348214285714286,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        94
+      ],
+      "tempo_no_rally_s": 0.76,
+      "tempo_no_video_s": 2545.92,
+      "timestamp_video": "00:42:25.920",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000078_serve1",
+      "rally": "rally_000078",
+      "frame": 414,
+      "xy": [
+        0.5401785714285714,
+        0.23214285714285715
+      ],
+      "janela": [
+        389,
+        489
+      ],
+      "tempo_no_rally_s": 16.56,
+      "tempo_no_video_s": 2561.72,
+      "timestamp_video": "00:42:41.720",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000079_serve0",
+      "rally": "rally_000079",
+      "frame": 7,
+      "xy": [
+        0.14285714285714285,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 2592.76,
+      "timestamp_video": "00:43:12.760",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000080_serve0",
+      "rally": "rally_000080",
+      "frame": 15,
+      "xy": [
+        0.8392857142857143,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        90
+      ],
+      "tempo_no_rally_s": 0.6,
+      "tempo_no_video_s": 2613.84,
+      "timestamp_video": "00:43:33.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000082_serve0",
+      "rally": "rally_000082",
+      "frame": 29,
+      "xy": [
+        0.8392857142857143,
+        0.35267857142857145
+      ],
+      "janela": [
+        4,
+        104
+      ],
+      "tempo_no_rally_s": 1.16,
+      "tempo_no_video_s": 2662.24,
+      "timestamp_video": "00:44:22.240",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000082_serve1",
+      "rally": "rally_000082",
+      "frame": 85,
+      "xy": [
+        0.5401785714285714,
+        0.3482142857142857
+      ],
+      "janela": [
+        60,
+        160
+      ],
+      "tempo_no_rally_s": 3.4,
+      "tempo_no_video_s": 2664.48,
+      "timestamp_video": "00:44:24.480",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000084_serve0",
+      "rally": "rally_000084",
+      "frame": 86,
+      "xy": [
+        0.6160714285714286,
+        0.3392857142857143
+      ],
+      "janela": [
+        61,
+        161
+      ],
+      "tempo_no_rally_s": 3.44,
+      "tempo_no_video_s": 2719.32,
+      "timestamp_video": "00:45:19.320",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000085_serve0",
+      "rally": "rally_000085",
+      "frame": 4,
+      "xy": [
+        0.8883928571428571,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 2744.36,
+      "timestamp_video": "00:45:44.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000086_serve0",
+      "rally": "rally_000086",
+      "frame": 10,
+      "xy": [
+        0.16071428571428573,
+        0.40625
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 2787.92,
+      "timestamp_video": "00:46:27.920",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000087_serve0",
+      "rally": "rally_000087",
+      "frame": 10,
+      "xy": [
+        0.16964285714285715,
+        0.38839285714285715
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 2821.04,
+      "timestamp_video": "00:47:01.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000088_serve0",
+      "rally": "rally_000088",
+      "frame": 16,
+      "xy": [
+        0.8392857142857143,
+        0.40625
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 2850.04,
+      "timestamp_video": "00:47:30.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000089_serve0",
+      "rally": "rally_000089",
+      "frame": 5,
+      "xy": [
+        0.11607142857142858,
+        0.375
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 2871.56,
+      "timestamp_video": "00:47:51.560",
+      "flags": [
+        "mesmo_frame_de_outro_evento"
+      ]
+    },
+    {
+      "serve_id": "rally_000090_serve0",
+      "rally": "rally_000090",
+      "frame": 9,
+      "xy": [
+        0.8571428571428571,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 2908.24,
+      "timestamp_video": "00:48:28.240",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000091_serve0",
+      "rally": "rally_000091",
+      "frame": 32,
+      "xy": [
+        0.17857142857142858,
+        0.4017857142857143
+      ],
+      "janela": [
+        7,
+        107
+      ],
+      "tempo_no_rally_s": 1.28,
+      "tempo_no_video_s": 2927.16,
+      "timestamp_video": "00:48:47.160",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000091_serve1",
+      "rally": "rally_000091",
+      "frame": 89,
+      "xy": [
+        0.5892857142857143,
+        0.3794642857142857
+      ],
+      "janela": [
+        64,
+        164
+      ],
+      "tempo_no_rally_s": 3.56,
+      "tempo_no_video_s": 2929.44,
+      "timestamp_video": "00:48:49.440",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000092_serve0",
+      "rally": "rally_000092",
+      "frame": 19,
+      "xy": [
+        0.14732142857142858,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        94
+      ],
+      "tempo_no_rally_s": 0.76,
+      "tempo_no_video_s": 2954.44,
+      "timestamp_video": "00:49:14.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000096_serve0",
+      "rally": "rally_000096",
+      "frame": 15,
+      "xy": [
+        0.13839285714285715,
+        0.4017857142857143
+      ],
+      "janela": [
+        0,
+        90
+      ],
+      "tempo_no_rally_s": 0.6,
+      "tempo_no_video_s": 3030.72,
+      "timestamp_video": "00:50:30.720",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000097_serve0",
+      "rally": "rally_000097",
+      "frame": 47,
+      "xy": [
+        0.10714285714285714,
+        0.41517857142857145
+      ],
+      "janela": [
+        22,
+        122
+      ],
+      "tempo_no_rally_s": 1.88,
+      "tempo_no_video_s": 3059.96,
+      "timestamp_video": "00:50:59.960",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000097_serve1",
+      "rally": "rally_000097",
+      "frame": 297,
+      "xy": [
+        0.6205357142857143,
+        0.32142857142857145
+      ],
+      "janela": [
+        272,
+        372
+      ],
+      "tempo_no_rally_s": 11.88,
+      "tempo_no_video_s": 3069.96,
+      "timestamp_video": "00:51:09.960",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000099_serve0",
+      "rally": "rally_000099",
+      "frame": 14,
+      "xy": [
+        0.8928571428571429,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 3112.96,
+      "timestamp_video": "00:51:52.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000100_serve0",
+      "rally": "rally_000100",
+      "frame": 7,
+      "xy": [
+        0.12946428571428573,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 3133.2,
+      "timestamp_video": "00:52:13.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000101_serve0",
+      "rally": "rally_000101",
+      "frame": 13,
+      "xy": [
+        0.8348214285714286,
+        0.45982142857142855
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 3171.48,
+      "timestamp_video": "00:52:51.480",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000102_serve0",
+      "rally": "rally_000102",
+      "frame": 199,
+      "xy": [
+        0.32142857142857145,
+        0.3705357142857143
+      ],
+      "janela": [
+        174,
+        274
+      ],
+      "tempo_no_rally_s": 7.96,
+      "tempo_no_video_s": 3205.52,
+      "timestamp_video": "00:53:25.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000103_serve0",
+      "rally": "rally_000103",
+      "frame": 22,
+      "xy": [
+        0.8616071428571429,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        97
+      ],
+      "tempo_no_rally_s": 0.88,
+      "tempo_no_video_s": 3238.08,
+      "timestamp_video": "00:53:58.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000104_serve0",
+      "rally": "rally_000104",
+      "frame": 14,
+      "xy": [
+        0.14285714285714285,
+        0.44642857142857145
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 3262.52,
+      "timestamp_video": "00:54:22.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000105_serve0",
+      "rally": "rally_000105",
+      "frame": 7,
+      "xy": [
+        0.17857142857142858,
+        0.47767857142857145
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 3605.88,
+      "timestamp_video": "01:00:05.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000106_serve0",
+      "rally": "rally_000106",
+      "frame": 5,
+      "xy": [
+        0.8526785714285714,
+        0.34375
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 3631.8,
+      "timestamp_video": "01:00:31.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000107_serve0",
+      "rally": "rally_000107",
+      "frame": 20,
+      "xy": [
+        0.17410714285714285,
+        0.2767857142857143
+      ],
+      "janela": [
+        0,
+        95
+      ],
+      "tempo_no_rally_s": 0.8,
+      "tempo_no_video_s": 3659.84,
+      "timestamp_video": "01:00:59.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000110_serve0",
+      "rally": "rally_000110",
+      "frame": 13,
+      "xy": [
+        0.7901785714285714,
+        0.30357142857142855
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 3683.48,
+      "timestamp_video": "01:01:23.480",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000111_serve0",
+      "rally": "rally_000111",
+      "frame": 7,
+      "xy": [
+        0.14285714285714285,
+        0.3125
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 3708.48,
+      "timestamp_video": "01:01:48.480",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000116_serve0",
+      "rally": "rally_000116",
+      "frame": 9,
+      "xy": [
+        0.12946428571428573,
+        0.3392857142857143
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 3802.64,
+      "timestamp_video": "01:03:22.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000117_serve0",
+      "rally": "rally_000117",
+      "frame": 52,
+      "xy": [
+        0.6383928571428571,
+        0.33035714285714285
+      ],
+      "janela": [
+        27,
+        127
+      ],
+      "tempo_no_rally_s": 2.08,
+      "tempo_no_video_s": 3833.52,
+      "timestamp_video": "01:03:53.520",
+      "flags": [
+        "mesmo_frame_de_outro_evento"
+      ]
+    },
+    {
+      "serve_id": "rally_000119_serve0",
+      "rally": "rally_000119",
+      "frame": 4,
+      "xy": [
+        0.8571428571428571,
+        0.3125
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 3881.68,
+      "timestamp_video": "01:04:41.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000120_serve0",
+      "rally": "rally_000120",
+      "frame": 29,
+      "xy": [
+        0.41964285714285715,
+        0.375
+      ],
+      "janela": [
+        4,
+        104
+      ],
+      "tempo_no_rally_s": 1.16,
+      "tempo_no_video_s": 3926.44,
+      "timestamp_video": "01:05:26.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000121_serve0",
+      "rally": "rally_000121",
+      "frame": 12,
+      "xy": [
+        0.8571428571428571,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 4134.0,
+      "timestamp_video": "01:08:54.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000124_serve0",
+      "rally": "rally_000124",
+      "frame": 6,
+      "xy": [
+        0.8348214285714286,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        77
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 4189.68,
+      "timestamp_video": "01:09:49.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000125_serve0",
+      "rally": "rally_000125",
+      "frame": 10,
+      "xy": [
+        0.14285714285714285,
+        0.27232142857142855
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 4211.28,
+      "timestamp_video": "01:10:11.280",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000125_serve1",
+      "rally": "rally_000125",
+      "frame": 114,
+      "xy": [
+        0.6785714285714286,
+        0.1875
+      ],
+      "janela": [
+        89,
+        189
+      ],
+      "tempo_no_rally_s": 4.56,
+      "tempo_no_video_s": 4215.44,
+      "timestamp_video": "01:10:15.440",
+      "flags": [
+        "mesmo_frame_de_outro_evento",
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000126_serve0",
+      "rally": "rally_000126",
+      "frame": 8,
+      "xy": [
+        0.13839285714285715,
+        0.32589285714285715
+      ],
+      "janela": [
+        0,
+        83
+      ],
+      "tempo_no_rally_s": 0.32,
+      "tempo_no_video_s": 4245.64,
+      "timestamp_video": "01:10:45.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000127_serve0",
+      "rally": "rally_000127",
+      "frame": 2,
+      "xy": [
+        0.8571428571428571,
+        0.30357142857142855
+      ],
+      "janela": [
+        0,
+        77
+      ],
+      "tempo_no_rally_s": 0.08,
+      "tempo_no_video_s": 4271.08,
+      "timestamp_video": "01:11:11.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000128_serve0",
+      "rally": "rally_000128",
+      "frame": 3,
+      "xy": [
+        0.11607142857142858,
+        0.32142857142857145
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 4296.76,
+      "timestamp_video": "01:11:36.760",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000130_serve0",
+      "rally": "rally_000130",
+      "frame": 9,
+      "xy": [
+        0.8660714285714286,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 4365.16,
+      "timestamp_video": "01:12:45.160",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000130_serve1",
+      "rally": "rally_000130",
+      "frame": 59,
+      "xy": [
+        0.41517857142857145,
+        0.22767857142857142
+      ],
+      "janela": [
+        34,
+        134
+      ],
+      "tempo_no_rally_s": 2.36,
+      "tempo_no_video_s": 4367.16,
+      "timestamp_video": "01:12:47.160",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000131_serve0",
+      "rally": "rally_000131",
+      "frame": 4,
+      "xy": [
+        0.12053571428571429,
+        0.39732142857142855
+      ],
+      "janela": [
+        0,
+        73
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 4394.64,
+      "timestamp_video": "01:13:14.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000132_serve0",
+      "rally": "rally_000132",
+      "frame": 12,
+      "xy": [
+        0.8125,
+        0.3794642857142857
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 4412.48,
+      "timestamp_video": "01:13:32.480",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000135_serve0",
+      "rally": "rally_000135",
+      "frame": 10,
+      "xy": [
+        0.14285714285714285,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 4437.8,
+      "timestamp_video": "01:13:57.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000137_serve0",
+      "rally": "rally_000137",
+      "frame": 10,
+      "xy": [
+        0.8303571428571429,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 4536.44,
+      "timestamp_video": "01:15:36.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000138_serve0",
+      "rally": "rally_000138",
+      "frame": 6,
+      "xy": [
+        0.8125,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 4564.68,
+      "timestamp_video": "01:16:04.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000139_serve0",
+      "rally": "rally_000139",
+      "frame": 6,
+      "xy": [
+        0.10267857142857142,
+        0.4375
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 4607.8,
+      "timestamp_video": "01:16:47.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000140_serve0",
+      "rally": "rally_000140",
+      "frame": 31,
+      "xy": [
+        0.1875,
+        0.48214285714285715
+      ],
+      "janela": [
+        6,
+        106
+      ],
+      "tempo_no_rally_s": 1.24,
+      "tempo_no_video_s": 4637.16,
+      "timestamp_video": "01:17:17.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000141_serve0",
+      "rally": "rally_000141",
+      "frame": 5,
+      "xy": [
+        0.8571428571428571,
+        0.3392857142857143
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 4662.96,
+      "timestamp_video": "01:17:42.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000142_serve0",
+      "rally": "rally_000142",
+      "frame": 27,
+      "xy": [
+        0.8482142857142857,
+        0.32142857142857145
+      ],
+      "janela": [
+        2,
+        102
+      ],
+      "tempo_no_rally_s": 1.08,
+      "tempo_no_video_s": 4736.68,
+      "timestamp_video": "01:18:56.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000145_serve0",
+      "rally": "rally_000145",
+      "frame": 4,
+      "xy": [
+        0.8303571428571429,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 4773.4,
+      "timestamp_video": "01:19:33.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000146_serve0",
+      "rally": "rally_000146",
+      "frame": 6,
+      "xy": [
+        0.09375,
+        0.28125
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 4819.0,
+      "timestamp_video": "01:20:19.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000148_serve0",
+      "rally": "rally_000148",
+      "frame": 30,
+      "xy": [
+        0.15625,
+        0.29464285714285715
+      ],
+      "janela": [
+        5,
+        105
+      ],
+      "tempo_no_rally_s": 1.2,
+      "tempo_no_video_s": 4905.08,
+      "timestamp_video": "01:21:45.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000149_serve0",
+      "rally": "rally_000149",
+      "frame": 3,
+      "xy": [
+        0.84375,
+        0.2857142857142857
+      ],
+      "janela": [
+        0,
+        74
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 4935.8,
+      "timestamp_video": "01:22:15.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000150_serve0",
+      "rally": "rally_000150",
+      "frame": 13,
+      "xy": [
+        0.15625,
+        0.36160714285714285
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 5294.12,
+      "timestamp_video": "01:28:14.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000151_serve0",
+      "rally": "rally_000151",
+      "frame": 12,
+      "xy": [
+        0.8392857142857143,
+        0.36160714285714285
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 5311.4,
+      "timestamp_video": "01:28:31.400",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000151_serve1",
+      "rally": "rally_000151",
+      "frame": 202,
+      "xy": [
+        0.7321428571428571,
+        0.26785714285714285
+      ],
+      "janela": [
+        177,
+        273
+      ],
+      "tempo_no_rally_s": 8.08,
+      "tempo_no_video_s": 5319.0,
+      "timestamp_video": "01:28:39.000",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000152_serve0",
+      "rally": "rally_000152",
+      "frame": 26,
+      "xy": [
+        0.8258928571428571,
+        0.3794642857142857
+      ],
+      "janela": [
+        1,
+        92
+      ],
+      "tempo_no_rally_s": 1.04,
+      "tempo_no_video_s": 5362.64,
+      "timestamp_video": "01:29:22.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000153_serve0",
+      "rally": "rally_000153",
+      "frame": 8,
+      "xy": [
+        0.14285714285714285,
+        0.45535714285714285
+      ],
+      "janela": [
+        0,
+        83
+      ],
+      "tempo_no_rally_s": 0.32,
+      "tempo_no_video_s": 5382.2,
+      "timestamp_video": "01:29:42.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000155_serve0",
+      "rally": "rally_000155",
+      "frame": 24,
+      "xy": [
+        0.8392857142857143,
+        0.3169642857142857
+      ],
+      "janela": [
+        0,
+        99
+      ],
+      "tempo_no_rally_s": 0.96,
+      "tempo_no_video_s": 5412.12,
+      "timestamp_video": "01:30:12.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000156_serve0",
+      "rally": "rally_000156",
+      "frame": 65,
+      "xy": [
+        0.11607142857142858,
+        0.35714285714285715
+      ],
+      "janela": [
+        40,
+        140
+      ],
+      "tempo_no_rally_s": 2.6,
+      "tempo_no_video_s": 5438.6,
+      "timestamp_video": "01:30:38.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000157_serve0",
+      "rally": "rally_000157",
+      "frame": 22,
+      "xy": [
+        0.8125,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        97
+      ],
+      "tempo_no_rally_s": 0.88,
+      "tempo_no_video_s": 5683.84,
+      "timestamp_video": "01:34:43.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000158_serve0",
+      "rally": "rally_000158",
+      "frame": 9,
+      "xy": [
+        0.8660714285714286,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 5708.36,
+      "timestamp_video": "01:35:08.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000159_serve0",
+      "rally": "rally_000159",
+      "frame": 9,
+      "xy": [
+        0.18303571428571427,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 5736.52,
+      "timestamp_video": "01:35:36.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000160_serve0",
+      "rally": "rally_000160",
+      "frame": 4,
+      "xy": [
+        0.8705357142857143,
+        0.32142857142857145
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 5760.64,
+      "timestamp_video": "01:36:00.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000161_serve0",
+      "rally": "rally_000161",
+      "frame": 1,
+      "xy": [
+        0.84375,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        76
+      ],
+      "tempo_no_rally_s": 0.04,
+      "tempo_no_video_s": 5792.64,
+      "timestamp_video": "01:36:32.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000163_serve0",
+      "rally": "rally_000163",
+      "frame": 6,
+      "xy": [
+        0.11607142857142858,
+        0.4732142857142857
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 5845.88,
+      "timestamp_video": "01:37:25.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000164_serve0",
+      "rally": "rally_000164",
+      "frame": 4,
+      "xy": [
+        0.8794642857142857,
+        0.32589285714285715
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 5875.96,
+      "timestamp_video": "01:37:55.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000165_serve0",
+      "rally": "rally_000165",
+      "frame": 23,
+      "xy": [
+        0.90625,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        98
+      ],
+      "tempo_no_rally_s": 0.92,
+      "tempo_no_video_s": 5955.28,
+      "timestamp_video": "01:39:15.280",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000166_serve0",
+      "rally": "rally_000166",
+      "frame": 8,
+      "xy": [
+        0.13392857142857142,
+        0.3125
+      ],
+      "janela": [
+        0,
+        83
+      ],
+      "tempo_no_rally_s": 0.32,
+      "tempo_no_video_s": 5981.56,
+      "timestamp_video": "01:39:41.560",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000167_serve0",
+      "rally": "rally_000167",
+      "frame": 13,
+      "xy": [
+        0.12053571428571429,
+        0.32142857142857145
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 6020.0,
+      "timestamp_video": "01:40:20.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000168_serve0",
+      "rally": "rally_000168",
+      "frame": 1,
+      "xy": [
+        0.8392857142857143,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        72
+      ],
+      "tempo_no_rally_s": 0.04,
+      "tempo_no_video_s": 6046.76,
+      "timestamp_video": "01:40:46.760",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000169_serve0",
+      "rally": "rally_000169",
+      "frame": 22,
+      "xy": [
+        0.8660714285714286,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        97
+      ],
+      "tempo_no_rally_s": 0.88,
+      "tempo_no_video_s": 6077.6,
+      "timestamp_video": "01:41:17.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000170_serve0",
+      "rally": "rally_000170",
+      "frame": 13,
+      "xy": [
+        0.13392857142857142,
+        0.3125
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 6102.8,
+      "timestamp_video": "01:41:42.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000171_serve0",
+      "rally": "rally_000171",
+      "frame": 59,
+      "xy": [
+        0.45535714285714285,
+        0.16964285714285715
+      ],
+      "janela": [
+        34,
+        134
+      ],
+      "tempo_no_rally_s": 2.36,
+      "tempo_no_video_s": 6130.24,
+      "timestamp_video": "01:42:10.240",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000173_serve0",
+      "rally": "rally_000173",
+      "frame": 13,
+      "xy": [
+        0.8571428571428571,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 6173.84,
+      "timestamp_video": "01:42:53.840",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000173_serve1",
+      "rally": "rally_000173",
+      "frame": 96,
+      "xy": [
+        0.2767857142857143,
+        0.29910714285714285
+      ],
+      "janela": [
+        71,
+        171
+      ],
+      "tempo_no_rally_s": 3.84,
+      "tempo_no_video_s": 6177.16,
+      "timestamp_video": "01:42:57.160",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000174_serve0",
+      "rally": "rally_000174",
+      "frame": 6,
+      "xy": [
+        0.11607142857142858,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 6202.32,
+      "timestamp_video": "01:43:22.320",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000175_serve0",
+      "rally": "rally_000175",
+      "frame": 14,
+      "xy": [
+        0.11160714285714286,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 6244.08,
+      "timestamp_video": "01:44:04.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000176_serve0",
+      "rally": "rally_000176",
+      "frame": 15,
+      "xy": [
+        0.8794642857142857,
+        0.34375
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.6,
+      "tempo_no_video_s": 6272.16,
+      "timestamp_video": "01:44:32.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000178_serve0",
+      "rally": "rally_000178",
+      "frame": 3,
+      "xy": [
+        0.8571428571428571,
+        0.3705357142857143
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 6319.36,
+      "timestamp_video": "01:45:19.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000179_serve0",
+      "rally": "rally_000179",
+      "frame": 9,
+      "xy": [
+        0.14732142857142858,
+        0.4642857142857143
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 6346.08,
+      "timestamp_video": "01:45:46.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000180_serve0",
+      "rally": "rally_000180",
+      "frame": 144,
+      "xy": [
+        0.8616071428571429,
+        0.33035714285714285
+      ],
+      "janela": [
+        119,
+        219
+      ],
+      "tempo_no_rally_s": 5.76,
+      "tempo_no_video_s": 6363.96,
+      "timestamp_video": "01:46:03.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000182_serve0",
+      "rally": "rally_000182",
+      "frame": 19,
+      "xy": [
+        0.8169642857142857,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        94
+      ],
+      "tempo_no_rally_s": 0.76,
+      "tempo_no_video_s": 6430.84,
+      "timestamp_video": "01:47:10.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000183_serve0",
+      "rally": "rally_000183",
+      "frame": 13,
+      "xy": [
+        0.8660714285714286,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 6460.96,
+      "timestamp_video": "01:47:40.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000189_serve0",
+      "rally": "rally_000189",
+      "frame": 11,
+      "xy": [
+        0.12053571428571429,
+        0.32589285714285715
+      ],
+      "janela": [
+        0,
+        86
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 6571.64,
+      "timestamp_video": "01:49:31.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000191_serve0",
+      "rally": "rally_000191",
+      "frame": 18,
+      "xy": [
+        0.1875,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        93
+      ],
+      "tempo_no_rally_s": 0.72,
+      "tempo_no_video_s": 6624.68,
+      "timestamp_video": "01:50:24.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000192_serve0",
+      "rally": "rally_000192",
+      "frame": 6,
+      "xy": [
+        0.7946428571428571,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        81
+      ],
+      "tempo_no_rally_s": 0.24,
+      "tempo_no_video_s": 6648.84,
+      "timestamp_video": "01:50:48.840",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000195_serve0",
+      "rally": "rally_000195",
+      "frame": 9,
+      "xy": [
+        0.13392857142857142,
+        0.4107142857142857
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 6699.6,
+      "timestamp_video": "01:51:39.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000196_serve0",
+      "rally": "rally_000196",
+      "frame": 31,
+      "xy": [
+        0.13392857142857142,
+        0.40625
+      ],
+      "janela": [
+        6,
+        106
+      ],
+      "tempo_no_rally_s": 1.24,
+      "tempo_no_video_s": 6733.52,
+      "timestamp_video": "01:52:13.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000197_serve0",
+      "rally": "rally_000197",
+      "frame": 16,
+      "xy": [
+        0.8526785714285714,
+        0.41517857142857145
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 6762.0,
+      "timestamp_video": "01:52:42.000",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000197_serve1",
+      "rally": "rally_000197",
+      "frame": 239,
+      "xy": [
+        0.29017857142857145,
+        0.33482142857142855
+      ],
+      "janela": [
+        214,
+        314
+      ],
+      "tempo_no_rally_s": 9.56,
+      "tempo_no_video_s": 6770.92,
+      "timestamp_video": "01:52:50.920",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000198_serve0",
+      "rally": "rally_000198",
+      "frame": 3,
+      "xy": [
+        0.15178571428571427,
+        0.3482142857142857
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 6813.96,
+      "timestamp_video": "01:53:33.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000199_serve0",
+      "rally": "rally_000199",
+      "frame": 17,
+      "xy": [
+        0.13839285714285715,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        92
+      ],
+      "tempo_no_rally_s": 0.68,
+      "tempo_no_video_s": 6872.68,
+      "timestamp_video": "01:54:32.680",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000200_serve0",
+      "rally": "rally_000200",
+      "frame": 11,
+      "xy": [
+        0.8928571428571429,
+        0.39285714285714285
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 6912.48,
+      "timestamp_video": "01:55:12.480",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000201_serve0",
+      "rally": "rally_000201",
+      "frame": 9,
+      "xy": [
+        0.16071428571428573,
+        0.4732142857142857
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 6939.6,
+      "timestamp_video": "01:55:39.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000202_serve0",
+      "rally": "rally_000202",
+      "frame": 116,
+      "xy": [
+        0.3794642857142857,
+        0.41964285714285715
+      ],
+      "janela": [
+        91,
+        191
+      ],
+      "tempo_no_rally_s": 4.64,
+      "tempo_no_video_s": 6982.48,
+      "timestamp_video": "01:56:22.480",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000202_serve1",
+      "rally": "rally_000202",
+      "frame": 298,
+      "xy": [
+        0.5044642857142857,
+        0.3482142857142857
+      ],
+      "janela": [
+        273,
+        373
+      ],
+      "tempo_no_rally_s": 11.92,
+      "tempo_no_video_s": 6989.76,
+      "timestamp_video": "01:56:29.760",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000204_serve0",
+      "rally": "rally_000204",
+      "frame": 12,
+      "xy": [
+        0.8616071428571429,
+        0.3169642857142857
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 7065.04,
+      "timestamp_video": "01:57:45.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000207_serve0",
+      "rally": "rally_000207",
+      "frame": 12,
+      "xy": [
+        0.8705357142857143,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 7239.04,
+      "timestamp_video": "02:00:39.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000208_serve0",
+      "rally": "rally_000208",
+      "frame": 9,
+      "xy": [
+        0.12946428571428573,
+        0.35714285714285715
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 7265.6,
+      "timestamp_video": "02:01:05.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000209_serve0",
+      "rally": "rally_000209",
+      "frame": 16,
+      "xy": [
+        0.8348214285714286,
+        0.40625
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 7534.6,
+      "timestamp_video": "02:05:34.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000210_serve0",
+      "rally": "rally_000210",
+      "frame": 11,
+      "xy": [
+        0.8214285714285714,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        86
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 7562.16,
+      "timestamp_video": "02:06:02.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000211_serve0",
+      "rally": "rally_000211",
+      "frame": 18,
+      "xy": [
+        0.17410714285714285,
+        0.3125
+      ],
+      "janela": [
+        0,
+        93
+      ],
+      "tempo_no_rally_s": 0.72,
+      "tempo_no_video_s": 7598.2,
+      "timestamp_video": "02:06:38.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000212_serve0",
+      "rally": "rally_000212",
+      "frame": 13,
+      "xy": [
+        0.12946428571428573,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 7640.6,
+      "timestamp_video": "02:07:20.600",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000213_serve0",
+      "rally": "rally_000213",
+      "frame": 10,
+      "xy": [
+        0.8392857142857143,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        85
+      ],
+      "tempo_no_rally_s": 0.4,
+      "tempo_no_video_s": 7666.08,
+      "timestamp_video": "02:07:46.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000215_serve0",
+      "rally": "rally_000215",
+      "frame": 237,
+      "xy": [
+        0.3482142857142857,
+        0.24107142857142858
+      ],
+      "janela": [
+        212,
+        308
+      ],
+      "tempo_no_rally_s": 9.48,
+      "tempo_no_video_s": 7739.04,
+      "timestamp_video": "02:08:59.040",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000216_serve0",
+      "rally": "rally_000216",
+      "frame": 16,
+      "xy": [
+        0.13839285714285715,
+        0.32589285714285715
+      ],
+      "janela": [
+        0,
+        91
+      ],
+      "tempo_no_rally_s": 0.64,
+      "tempo_no_video_s": 7768.52,
+      "timestamp_video": "02:09:28.520",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000217_serve0",
+      "rally": "rally_000217",
+      "frame": 11,
+      "xy": [
+        0.8660714285714286,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        77
+      ],
+      "tempo_no_rally_s": 0.44,
+      "tempo_no_video_s": 7787.8,
+      "timestamp_video": "02:09:47.800",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000218_serve0",
+      "rally": "rally_000218",
+      "frame": 5,
+      "xy": [
+        0.13839285714285715,
+        0.39732142857142855
+      ],
+      "janela": [
+        0,
+        80
+      ],
+      "tempo_no_rally_s": 0.2,
+      "tempo_no_video_s": 7810.4,
+      "timestamp_video": "02:10:10.400",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000218_serve1",
+      "rally": "rally_000218",
+      "frame": 59,
+      "xy": [
+        0.6339285714285714,
+        0.36160714285714285
+      ],
+      "janela": [
+        34,
+        134
+      ],
+      "tempo_no_rally_s": 2.36,
+      "tempo_no_video_s": 7812.56,
+      "timestamp_video": "02:10:12.560",
+      "flags": [
+        "rally_com_mais_de_um_serve"
+      ]
+    },
+    {
+      "serve_id": "rally_000220_serve0",
+      "rally": "rally_000220",
+      "frame": 14,
+      "xy": [
+        0.15625,
+        0.42857142857142855
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 7894.0,
+      "timestamp_video": "02:11:34.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000221_serve0",
+      "rally": "rally_000221",
+      "frame": 9,
+      "xy": [
+        0.8928571428571429,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 7925.2,
+      "timestamp_video": "02:12:05.200",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000223_serve0",
+      "rally": "rally_000223",
+      "frame": 18,
+      "xy": [
+        0.16517857142857142,
+        0.4419642857142857
+      ],
+      "janela": [
+        0,
+        93
+      ],
+      "tempo_no_rally_s": 0.72,
+      "tempo_no_video_s": 7990.16,
+      "timestamp_video": "02:13:10.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000225_serve0",
+      "rally": "rally_000225",
+      "frame": 172,
+      "xy": [
+        0.75,
+        0.25
+      ],
+      "janela": [
+        147,
+        242
+      ],
+      "tempo_no_rally_s": 6.88,
+      "tempo_no_video_s": 8027.08,
+      "timestamp_video": "02:13:47.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000226_serve0",
+      "rally": "rally_000226",
+      "frame": 2,
+      "xy": [
+        0.8125,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        77
+      ],
+      "tempo_no_rally_s": 0.08,
+      "tempo_no_video_s": 8049.96,
+      "timestamp_video": "02:14:09.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000230_serve0",
+      "rally": "rally_000230",
+      "frame": 8,
+      "xy": [
+        0.12053571428571429,
+        0.42410714285714285
+      ],
+      "janela": [
+        0,
+        83
+      ],
+      "tempo_no_rally_s": 0.32,
+      "tempo_no_video_s": 8077.88,
+      "timestamp_video": "02:14:37.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000231_serve0",
+      "rally": "rally_000231",
+      "frame": 3,
+      "xy": [
+        0.8169642857142857,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        78
+      ],
+      "tempo_no_rally_s": 0.12,
+      "tempo_no_video_s": 8099.08,
+      "timestamp_video": "02:14:59.080",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000233_serve0",
+      "rally": "rally_000233",
+      "frame": 7,
+      "xy": [
+        0.14285714285714285,
+        0.4330357142857143
+      ],
+      "janela": [
+        0,
+        82
+      ],
+      "tempo_no_rally_s": 0.28,
+      "tempo_no_video_s": 8130.88,
+      "timestamp_video": "02:15:30.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000234_serve0",
+      "rally": "rally_000234",
+      "frame": 13,
+      "xy": [
+        0.84375,
+        0.3392857142857143
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.52,
+      "tempo_no_video_s": 8161.12,
+      "timestamp_video": "02:16:01.120",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000235_serve0",
+      "rally": "rally_000235",
+      "frame": 12,
+      "xy": [
+        0.8169642857142857,
+        0.36160714285714285
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 8195.88,
+      "timestamp_video": "02:16:35.880",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000236_serve0",
+      "rally": "rally_000236",
+      "frame": 14,
+      "xy": [
+        0.16071428571428573,
+        0.33482142857142855
+      ],
+      "janela": [
+        0,
+        89
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 8227.64,
+      "timestamp_video": "02:17:07.640",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000237_serve0",
+      "rally": "rally_000237",
+      "frame": 9,
+      "xy": [
+        0.13392857142857142,
+        0.33035714285714285
+      ],
+      "janela": [
+        0,
+        84
+      ],
+      "tempo_no_rally_s": 0.36,
+      "tempo_no_video_s": 8274.44,
+      "timestamp_video": "02:17:54.440",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000238_serve0",
+      "rally": "rally_000238",
+      "frame": 12,
+      "xy": [
+        0.8392857142857143,
+        0.36607142857142855
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 8295.92,
+      "timestamp_video": "02:18:15.920",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000239_serve0",
+      "rally": "rally_000239",
+      "frame": 20,
+      "xy": [
+        0.1875,
+        0.29910714285714285
+      ],
+      "janela": [
+        0,
+        95
+      ],
+      "tempo_no_rally_s": 0.8,
+      "tempo_no_video_s": 8332.96,
+      "timestamp_video": "02:18:52.960",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000240_serve0",
+      "rally": "rally_000240",
+      "frame": 14,
+      "xy": [
+        0.25,
+        0.38392857142857145
+      ],
+      "janela": [
+        0,
+        88
+      ],
+      "tempo_no_rally_s": 0.56,
+      "tempo_no_video_s": 8405.56,
+      "timestamp_video": "02:20:05.560",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000241_serve0",
+      "rally": "rally_000241",
+      "frame": 27,
+      "xy": [
+        0.84375,
+        0.35714285714285715
+      ],
+      "janela": [
+        2,
+        102
+      ],
+      "tempo_no_rally_s": 1.08,
+      "tempo_no_video_s": 8439.28,
+      "timestamp_video": "02:20:39.280",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000242_serve0",
+      "rally": "rally_000242",
+      "frame": 41,
+      "xy": [
+        0.14732142857142858,
+        0.3705357142857143
+      ],
+      "janela": [
+        16,
+        116
+      ],
+      "tempo_no_rally_s": 1.64,
+      "tempo_no_video_s": 8478.0,
+      "timestamp_video": "02:21:18.000",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000243_serve0",
+      "rally": "rally_000243",
+      "frame": 20,
+      "xy": [
+        0.8080357142857143,
+        0.35267857142857145
+      ],
+      "janela": [
+        0,
+        95
+      ],
+      "tempo_no_rally_s": 0.8,
+      "tempo_no_video_s": 8500.36,
+      "timestamp_video": "02:21:40.360",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000247_serve0",
+      "rally": "rally_000247",
+      "frame": 20,
+      "xy": [
+        0.15178571428571427,
+        0.4375
+      ],
+      "janela": [
+        0,
+        95
+      ],
+      "tempo_no_rally_s": 0.8,
+      "tempo_no_video_s": 8625.32,
+      "timestamp_video": "02:23:45.320",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000248_serve0",
+      "rally": "rally_000248",
+      "frame": 12,
+      "xy": [
+        0.8258928571428571,
+        0.34375
+      ],
+      "janela": [
+        0,
+        87
+      ],
+      "tempo_no_rally_s": 0.48,
+      "tempo_no_video_s": 8649.4,
+      "timestamp_video": "02:24:09.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000249_serve0",
+      "rally": "rally_000249",
+      "frame": 4,
+      "xy": [
+        0.12053571428571429,
+        0.4375
+      ],
+      "janela": [
+        0,
+        79
+      ],
+      "tempo_no_rally_s": 0.16,
+      "tempo_no_video_s": 8675.4,
+      "timestamp_video": "02:24:35.400",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000250_serve0",
+      "rally": "rally_000250",
+      "frame": 36,
+      "xy": [
+        0.8571428571428571,
+        0.39732142857142855
+      ],
+      "janela": [
+        11,
+        111
+      ],
+      "tempo_no_rally_s": 1.44,
+      "tempo_no_video_s": 8706.16,
+      "timestamp_video": "02:25:06.160",
+      "flags": []
+    },
+    {
+      "serve_id": "rally_000251_serve0",
+      "rally": "rally_000251",
+      "frame": 22,
+      "xy": [
+        0.16071428571428573,
+        0.40625
+      ],
+      "janela": [
+        0,
+        97
+      ],
+      "tempo_no_rally_s": 0.88,
+      "tempo_no_video_s": 8738.08,
+      "timestamp_video": "02:25:38.080",
+      "flags": []
+    }
+  ]
+}
