@@ -1,0 +1,18 @@
+# Somente anotações são versionadas. Vídeos e frames ficam apenas no disco local.
+.venv/
+.pytest_cache/
+*.egg-info/
+__pycache__/
+data/raw/
+data/frames_224p/
+data/frames_720p/
+data/processed/
+data/metadata/
+reports/
+*.mp4
+*.mkv
+*.webm
+*.jpg
+*.png
+*.npz
+*.zip
