@@ -36,8 +36,10 @@ visao-volei/
 ```
 
 As imagens (cerca de 4 GB) não vão para o git. Elas são distribuídas à parte, em
-`jpn_bra_vnl23_720p.zip`, que já contém este README, o script e a pasta
-`data/` completa. Basta descompactar e rodar.
+`jpn_bra_vnl23_720p.zip`
+([Google Drive](https://drive.google.com/file/d/1J3GHH0t2LxuR-5iOokzTHsZ8G2uNaleb/view?usp=sharing)),
+que já contém este README, o script e a pasta `data/` completa. Basta
+descompactar e rodar.
 
 ## Anotações
 
@@ -74,8 +76,26 @@ dos eventos.
 Resultado atual: 189/189 rallies aprovados. O único frame abaixo do limiar é o
 frame 0 do `rally_000104` (0,926), que cai no meio de uma vinheta de transição.
 
+## Altura do lançamento no saque (em andamento)
+
+O objetivo e o andamento estão em [`docs/arquitetura.md`](docs/arquitetura.md) e
+[`docs/relatorio.md`](docs/relatorio.md). O código fica em `src/saque/` e roda com `uv`.
+As partes 1 a 3 precisam do vídeo completo, procurado em `~/Downloads`; outro
+caminho pode ser passado em `SAQUE_VIDEO`.
+
+```bash
+uv sync
+uv run saque-janelas       # 1. frames de −3 s a +1 s do contato → data/frames_toss/ (~2 GB, ~30 s)
+uv run saque-planos        # 2. plano aberto × close/vinheta → data/processed/planos.json (~2 min)
+uv run saque-calibracao    # 3. câmera de cada saque → data/processed/calibracao.json (~20 s)
+```
+
+Para conferir visualmente: `data/processed/planos_visual/` (borda verde = câmera
+aberta) e `data/processed/calibracao_visual/` (quadra projetada em verde).
+
 ## Origem do material
 
-As anotações e os frames de 224p são do VNL-STES. O vídeo completo é a transmissão
-pública da partida no YouTube (1280×720, 25 fps, 02:33:05). Os vídeos não são
+As anotações e os frames de 224p são do VNL-STES. O vídeo completo é a
+[transmissão pública da partida no YouTube](https://www.youtube.com/watch?v=oyQWrHuSLmc)
+(1280×720, 25 fps, 02:33:05). Os vídeos não são
 redistribuídos. Use este material apenas para fins acadêmicos.
