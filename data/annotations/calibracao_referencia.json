@@ -1,0 +1,15 @@
+{
+  "descricao": "Pontos aproximados (px, 1280x720) marcados à mão no frame de referência. São só o chute inicial: calibracao.py ajusta as linhas da quadra nos pixels brancos e recalcula as interseções.",
+  "serve_id": "rally_000140_serve0",
+  "frame": 31,
+  "pontos": {
+    "canto_esq_perto":  [218, 512],
+    "canto_esq_longe":  [358, 375],
+    "canto_dir_longe":  [1120, 391],
+    "canto_dir_perto":  [1263, 540],
+    "ataque_esq_longe": [588, 378],
+    "ataque_esq_perto": [557, 520],
+    "ataque_dir_longe": [870, 383],
+    "ataque_dir_perto": [905, 528]
+  }
+}

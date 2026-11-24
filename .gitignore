@@ -7,6 +7,7 @@ data/raw/
 data/frames_224p/
 data/frames_720p/
 data/processed/
+data/frames_toss/
 data/metadata/
 reports/
 *.mp4
