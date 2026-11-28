@@ -40,11 +40,22 @@ class Saque:
     def tempo(self, k: int) -> float:
         return self.start_time + k / FPS
 
-    def caminho(self, k: int) -> Path:
+    def caminho_toss(self, k: int) -> Path:
         return FRAMES_TOSS / self.serve_id / f"{k:+06d}.jpg"
 
+    def caminho(self, k: int) -> Path:
+        """Frame k do frames_toss (parte 1) ou, sem ele, do frames_720p do Drive (só k ≥ 0)."""
+        toss = self.caminho_toss(k)
+        return toss if toss.exists() else FRAMES_720 / self.rally / f"{k:06d}.jpg"
+
+    def existe(self, k: int) -> bool:
+        return self.caminho(k).exists()
+
     def ler(self, k: int) -> np.ndarray:
-        return cv2.imread(str(self.caminho(k)))
+        img = cv2.imread(str(self.caminho(k)))
+        if img is None:
+            raise FileNotFoundError(f"frame {k} de {self.serve_id} não existe em frames_toss nem em frames_720p")
+        return img
 
 
 def ler_json(caminho: Path):

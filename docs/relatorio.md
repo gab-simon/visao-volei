@@ -96,3 +96,28 @@ Revisando o plano, cortamos a etapa de achar o sacador. Com a gravidade
 conhecida, alguns frames da bola já bastam para reconstruir a trajetória em 3D,
 sem precisar saber onde a pessoa está. O caminho agora é: rastrear a bola (4),
 ajustar a parábola e tirar a altura (5), métricas e validação (6).
+
+## Parte 4 — Achando a bola
+
+A ideia inicial era usar um detector pronto (YOLO) ou treinar um. Não foi preciso. Com a
+câmera aberta, a bola é uma das poucas coisas pequenas que se mexem: alinhando cada frame
+com os vizinhos (as homografias da parte 2 já fazem isso) e subtraindo, ela aparece como
+uma mancha clara contra a torcida. O difícil foi separar a bola das outras manchas, que
+são dezenas por frame. Duas coisas resolveram: ficar só com o que se move de forma
+regular em 3 frames seguidos e, principalmente, deixar a física escolher. A trajetória
+tem de ser uma parábola com a gravidade de verdade, vista pela câmera calibrada. Ruído
+não forma parábola.
+
+Um detalhe: no começo os frames do Drive pareciam insuficientes, porque não cobrem os
+segundos antes do rally. Mas o rally do dataset começa justamente quando a câmera abre,
+então eles têm todo o trecho útil.
+
+## Parte 5 — A altura
+
+Para 73 saques temos a trajetória 3D da bola. Em menos da metade deles vemos o topo; nos
+outros ele sai da conta, a partir da descida. As alturas formam dois grupos que fazem
+sentido: o saque flutuante, com a bola subindo até uns 3,5 m, e o saque viagem, com ela
+chegando perto de 6,6 m. No viagem, o contato também é mais alto (3,3 m contra 2,9 m),
+porque o jogador salta.
+
+Falta validar com uma medida independente (parte 6).

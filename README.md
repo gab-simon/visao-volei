@@ -80,18 +80,25 @@ frame 0 do `rally_000104` (0,926), que cai no meio de uma vinheta de transição
 
 O objetivo e o andamento estão em [`docs/arquitetura.md`](docs/arquitetura.md) e
 [`docs/relatorio.md`](docs/relatorio.md). O código fica em `src/saque/` e roda com `uv`.
-As partes 1 a 3 precisam do vídeo completo, procurado em `~/Downloads`; outro
-caminho pode ser passado em `SAQUE_VIDEO`.
+As partes 2 e 3 rodam direto com os frames do zip (`data/frames_720p`). A parte 1 é
+opcional: precisa do vídeo completo (procurado em `~/Downloads`, ou no caminho de
+`SAQUE_VIDEO`) e do `ffmpeg`, e só acrescenta frames anteriores ao começo do rally,
+que na prática são close e não entram no plano aberto. Quando `data/frames_toss/`
+existe, ele tem prioridade.
 
 ```bash
 uv sync
-uv run saque-janelas       # 1. frames de −3 s a +1 s do contato → data/frames_toss/ (~2 GB, ~30 s)
-uv run saque-planos        # 2. plano aberto × close/vinheta → data/processed/planos.json (~2 min)
+uv run saque-janelas       # 1. (opcional) −3 s a +1 s do contato → data/frames_toss/ (~2 GB, ~30 s)
+uv run saque-planos        # 2. plano aberto × close/vinheta → data/processed/planos.json (~5 min)
 uv run saque-calibracao    # 3. câmera de cada saque → data/processed/calibracao.json (~20 s)
+uv run saque-bola          # 4+5. bola e altura do lançamento → data/processed/bola.json (~2,5 min)
+uv run saque-gif --saque rally_000026_serve0   # GIF lento com a trajetória → data/gifs/
 ```
 
 Para conferir visualmente: `data/processed/planos_visual/` (borda verde = câmera
-aberta) e `data/processed/calibracao_visual/` (quadra projetada em verde).
+aberta), `data/processed/calibracao_visual/` (quadra projetada em verde) e
+`data/processed/bola_visual/` (candidatos em vermelho, bola usada em verde,
+parábola ajustada em amarelo).
 
 ## Origem do material
 

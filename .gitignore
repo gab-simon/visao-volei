@@ -9,6 +9,7 @@ data/frames_720p/
 data/processed/
 data/frames_toss/
 data/metadata/
+data/gifs/
 reports/
 *.mp4
 *.mkv

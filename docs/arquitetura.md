@@ -15,8 +15,8 @@ vídeo + anotações ─► [1] janelas ─► [2] plano aberto ─► [3] calib
 | 1 | Janelas | frames de −3 s a +1 s do contato | ✅ `saque-janelas` |
 | 2 | Plano aberto | trecho de câmera aberta + homografias frame → contato | ✅ `saque-planos` |
 | 3 | Calibração | matriz `P` de cada frame aberto | ✅ `saque-calibracao` |
-| 4 | Bola | posição da bola em pixels, frame a frame | ⏳ |
-| 5 | Altura | trajetória 3D e altura máxima | ⏳ |
+| 4 | Bola | posição da bola em pixels, frame a frame | ✅ `saque-bola` |
+| 5 | Altura | trajetória 3D e altura máxima | ✅ `saque-bola` |
 | 6 | Métricas e validação | CSV por saque, gráficos, conferência manual | ⏳ |
 
 ## Saques usados
@@ -67,22 +67,43 @@ caminhando deram 1,68 e 1,78 m.
 
 ## 4. Bola
 
-Na câmera aberta a bola tem ~6–10 px. A semente é o `xy` anotado no contato; a
-partir dela rastreamos para trás com um detector pronto (YOLO, `sports ball`)
-restrito a uma região em volta da última posição. Se o detector falhar demais,
-anotamos algumas centenas de frames e ajustamos um modelo pequeno.
+Não foi preciso treinar nada. Na câmera aberta a bola tem ~10 px e, contra a torcida,
+aparece bem na **diferença tripla**: os frames k−2 e k+2 são alinhados no frame k pelas
+homografias da parte 2, e fica o que mudou em relação aos dois. As manchas pequenas e
+compactas perto do sacador são candidatas. Sobram dezenas por frame (torcida, jogadores,
+erros de alinhamento), então só ficam as que formam, com vizinhos em k−1 e k+1, um
+trecho quase reto e uniforme que de fato se desloca.
+
+Os frames vêm de `data/frames_toss/` (parte 1) quando existe e, se não, de
+`data/frames_720p/`. Como o rally do dataset começa no corte para a câmera aberta,
+os dois dão o mesmo plano aberto.
 
 ## 5. Altura
 
-Em queda livre, a bola segue `X(t) = X₀ + V₀·t + ½·g·t²`, com `g = (0, 0, −9,8)`.
-São 6 incógnitas (`X₀`, `V₀`), e cada frame dá 2 equações (`P_k · X(t_k)` tem de
-cair na bola detectada). Com uns 4 frames já sobram equações, e um ajuste de
-mínimos quadrados dá a trajetória 3D, **sem precisar saber onde está o
-sacador**. A altura máxima sai direto da parábola (`z + v_z²/2g`), mesmo quando
-só vemos a descida.
+Em queda livre, a bola segue `X(t) = X₀ + V₀·t + ½·g·t²`, com `g = (0, 0, −9,81)` e
+`t = 0` no contato. Cada frame dá 2 equações lineares em (`X₀`, `V₀`), então 3 frames
+determinam a parábola, **sem precisar saber onde está o sacador**. Um RANSAC sorteia 3
+candidatos de frames diferentes, conta quantos frames têm um candidato a menos de 4 px da
+parábola projetada, refina as 100 melhores hipóteses por mínimos quadrados no erro de
+reprojeção e fica com a plausível que explica mais frames (mínimo 7). Plausível: no
+contato, a bola está perto ou atrás da linha de fundo, entre 1,8 e 4,5 m, sem subir
+rápido. Esse filtro só vale depois do refino; com 3 pontos a profundidade é instável e
+hipóteses boas parecem absurdas.
 
-O ajuste começa no último frame antes do contato e volta no tempo enquanto o
-resíduo continuar baixo; o golpe e a mão do sacador quebram a queda livre.
+A altura máxima sai da parábola (`z` em `t = v_z/g`), mesmo quando só vemos a descida.
+
+**Resultado:** 73 dos 132 saques com ≥ 7 frames abertos e câmera calibrada têm parábola
+(mediana de 13 frames, RMS 0,54 px); em 34 o topo aparece na imagem, nos outros é
+extrapolado. Conferidos um a um nas imagens, os 73 seguem a bola real até a mão do
+sacador. A altura máxima separa os dois tipos de saque:
+
+| | saques | altura máxima (mediana) | altura no contato (mediana) |
+|---|---|---|---|
+| flutuante (< 5 m) | 28 | 3,48 m | 2,88 m |
+| viagem (≥ 5 m) | 45 | 6,62 m | 3,27 m |
+
+Suspeito: `rally_000182_serve0` (1,91 m, RMS 2,3 px), em que a parábola está certa na
+imagem mas a profundidade parece errada.
 
 ## 6. Métricas e validação
 
@@ -102,7 +123,8 @@ src/saque/
 ├── registro.py     homografia entre frames (SIFT)
 ├── janelas.py      parte 1
 ├── planos.py       parte 2
-└── calibracao.py   parte 3
+├── calibracao.py   parte 3
+└── bola.py         partes 4 e 5
 ```
 
 As saídas ficam em `data/processed/` (fora do git).

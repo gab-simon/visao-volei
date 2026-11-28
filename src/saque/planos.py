@@ -41,7 +41,7 @@ def plano_aberto(s: Saque) -> dict[int, np.ndarray]:
     H = {s.frame: np.eye(3)}
     for passo in (-1, 1):
         k, f_k = s.frame, features(ref, ESCALA)
-        while k + passo in s.janela:
+        while k + passo in s.janela and s.existe(k + passo):
             img = s.ler(k + passo)
             f_viz = features(img, ESCALA)
             H_viz = homografia(f_viz, f_k)
@@ -58,7 +58,7 @@ def plano_aberto(s: Saque) -> dict[int, np.ndarray]:
 def tira_visual(s: Saque, ini: int, fim: int) -> np.ndarray:
     """Miniaturas a cada 0,4 s: borda verde no plano aberto, vermelha fora."""
     tiles = []
-    for k in s.janela[::10]:
+    for k in (k for k in s.janela[::10] if s.existe(k)):
         img = cv2.resize(s.ler(k), (256, 144))
         cor = (0, 200, 0) if ini <= k <= fim else (0, 0, 220)
         img = cv2.copyMakeBorder(img, 4, 4, 4, 4, cv2.BORDER_CONSTANT, value=cor)

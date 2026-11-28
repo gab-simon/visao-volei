@@ -19,7 +19,7 @@ from .dados import DATA, FPS, FRAMES_720, VIDEO, Saque, saques_validos
 
 
 def extrair(s: Saque, refazer: bool = False) -> None:
-    pasta = s.caminho(0).parent
+    pasta = s.caminho_toss(0).parent
     if not refazer and len(list(pasta.glob("*.jpg"))) == len(s.janela):
         return
     # com -ss no instante exato o ffmpeg entrega o frame anterior; meio frame resolve
@@ -30,7 +30,7 @@ def extrair(s: Saque, refazer: bool = False) -> None:
         shutil.rmtree(pasta, ignore_errors=True)
         pasta.mkdir(parents=True)
         for k, arquivo in zip(s.janela, sorted(Path(tmp).glob("*.jpg"))):
-            arquivo.rename(s.caminho(k))
+            arquivo.rename(s.caminho_toss(k))
 
 
 def _cinza(caminho: Path) -> np.ndarray:
@@ -44,7 +44,7 @@ def no_frame_certo(s: Saque) -> bool:
     comuns = [k for k in s.janela if all(ref(k + d).exists() for d in (-1, 0, 1))]
     votos = []
     for k in comuns[:: max(1, len(comuns) // 6)][:6]:
-        novo = _cinza(s.caminho(k))
+        novo = _cinza(s.caminho_toss(k))
         erro = [np.abs(novo - _cinza(ref(k + d))).mean() for d in (-1, 0, 1)]
         votos.append(int(np.argmin(erro)) == 1)
     return sum(votos) > len(votos) / 2   # maioria: vinhetas enganam um frame ou outro
@@ -57,6 +57,8 @@ def main() -> None:
     args = ap.parse_args()
     if not VIDEO.exists():
         raise SystemExit(f"vídeo não encontrado: {VIDEO} (defina SAQUE_VIDEO)")
+    if shutil.which("ffmpeg") is None:
+        raise SystemExit("ffmpeg não encontrado no PATH")
 
     saques = [s for s in saques_validos() if args.saque in (None, s.serve_id)]
 
